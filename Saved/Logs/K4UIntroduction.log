@@ -1497,4 +1497,98 @@ LogInit: Object subsystem initialized
 [2016.09.14-09.08.21:839][349]LogWorld: Bringing up level for play took: 0.002704
 [2016.09.14-09.08.21:933][349]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test -0.729
 [2016.09.14-09.08.21:934][349]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.14-09.10.16:077][460]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Leve
+[2016.09.14-09.10.16:077][460]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.14-09.10.16:215][460]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.14-09.10.38:303][ 45]LogSavePackage: Save=51.82ms
+[2016.09.14-09.10.38:303][ 45]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/BP_Avateering_Poseable1B5CAA0844BF1421053799ACDE104A66.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset'
+[2016.09.14-09.10.38:307][ 45]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset
+[2016.09.14-09.10.38:750][ 98]BlueprintLog: New page: Compile BP_Avateering_Poseable
+[2016.09.14-09.10.38:847][ 98]BlueprintEditorCompileResults: Info [3634.91] Compile of BP_Avateering_Poseable successful! [in 96 ms] (/Game/Blueprints/Avateering/BP_Avateering_Poseable.BP_Avateering_Poseable)
+[2016.09.14-09.11.05:816][293]LogSavePackage: Save=52.71ms
+[2016.09.14-09.11.05:816][293]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/BP_Avateering_PoseableAB2FC98044780EEE2CDDDCB5F948FBE5.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset'
+[2016.09.14-09.11.05:818][293]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset
+[2016.09.14-09.11.08:635][630]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.09.14-09.11.08:635][630]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.09.14-09.12.52:589][ 38]LogSavePackage: Save=52.00ms
+[2016.09.14-09.12.52:589][ 38]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/BP_Avateering_Poseable10EF090744B42C777AEF648B1AD91FAF.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset'
+[2016.09.14-09.12.52:591][ 38]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset
+[2016.09.14-09.12.53:518][149]BlueprintLog: New page: Compile BP_Avateering_Poseable
+[2016.09.14-09.12.53:611][149]BlueprintEditorCompileResults: Info [3769.68] Compile of BP_Avateering_Poseable successful! [in 92 ms] (/Game/Blueprints/Avateering/BP_Avateering_Poseable.BP_Avateering_Poseable)
+[2016.09.14-09.17.55:327][332]LogEditorTransaction: Undo Rename Node
+[2016.09.14-09.18.31:003][510]LogSavePackage: Save=55.98ms
+[2016.09.14-09.18.31:003][510]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/BP_Avateering_PoseableFDC0CE674CE71256E909BAA9D15F29EB.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset'
+[2016.09.14-09.18.31:006][510]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset
+[2016.09.14-09.19.50:313][929]LogSavePackage: Save=56.32ms
+[2016.09.14-09.19.50:313][929]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/BP_Avateering_PoseableB8EF2B014D2B07CF3E540292EE2FCC40.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset'
+[2016.09.14-09.19.50:316][929]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset
+[2016.09.14-09.19.52:816][229]BlueprintLog: New page: Compile BP_Avateering_Poseable
+[2016.09.14-09.19.52:912][229]BlueprintEditorCompileResults: Info [4188.98] Compile of BP_Avateering_Poseable successful! [in 95 ms] (/Game/Blueprints/Avateering/BP_Avateering_Poseable.BP_Avateering_Poseable)
+[2016.09.14-09.20.02:230][344]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.14-09.20.02:230][344]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.14-09.20.02:230][344]PIE: New page: PIE session: Level_Test (Sep 14, 2016, 12:20:02 PM)
+[2016.09.14-09.20.02:230][344]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.09.14-09.20.02:234][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004105s)
+[2016.09.14-09.20.02:235][344]LogAIModule: Creating AISystem for world Level_Test
+[2016.09.14-09.20.02:236][344]LogPlayLevel: PIE: World Init took: (0.001353s)
+[2016.09.14-09.20.02:236][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.005809s)
+[2016.09.14-09.20.02:265][344]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.14-09.20.02:275][344]LogInit: FAudioDevice initialized.
+[2016.09.14-09.20.02:402][344]LogWorld: Game class is 'MyGameMode_C'
+[2016.09.14-09.20.02:405][344]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.14-11.20.02
+[2016.09.14-09.20.02:406][344]LogWorld: Bringing up level for play took: 0.003094
+[2016.09.14-09.20.02:506][344]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test -0.156
+[2016.09.14-09.20.02:506][344]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.14-09.20.28:461][507]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.14-09.20.28:604][507]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.14-09.21.00:245][272]LogSavePackage: Save=54.26ms
+[2016.09.14-09.21.00:246][272]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/BP_Avateering_Poseable94B381824C3B639CAB241E9659589737.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset'
+[2016.09.14-09.21.00:248][272]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset
+[2016.09.14-09.21.01:557][429]BlueprintLog: New page: Compile BP_Avateering_Poseable
+[2016.09.14-09.21.01:651][429]BlueprintEditorCompileResults: Info [4257.72] Compile of BP_Avateering_Poseable successful! [in 94 ms] (/Game/Blueprints/Avateering/BP_Avateering_Poseable.BP_Avateering_Poseable)
+[2016.09.14-09.21.02:325][507]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.14-09.21.02:325][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.14-09.21.02:325][507]PIE: New page: PIE session: Level_Test (Sep 14, 2016, 12:21:02 PM)
+[2016.09.14-09.21.02:325][507]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.09.14-09.21.02:329][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003857s)
+[2016.09.14-09.21.02:330][507]LogAIModule: Creating AISystem for world Level_Test
+[2016.09.14-09.21.02:330][507]LogPlayLevel: PIE: World Init took: (0.000687s)
+[2016.09.14-09.21.02:330][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.004886s)
+[2016.09.14-09.21.02:363][507]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.14-09.21.02:372][507]LogInit: FAudioDevice initialized.
+[2016.09.14-09.21.02:491][507]LogWorld: Game class is 'MyGameMode_C'
+[2016.09.14-09.21.02:495][507]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.14-11.21.02
+[2016.09.14-09.21.02:495][507]LogWorld: Bringing up level for play took: 0.002887
+[2016.09.14-09.21.02:577][507]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test -0.085
+[2016.09.14-09.21.02:577][507]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.14-09.23.20:474][681]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.14-09.23.20:617][681]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.14-09.23.27:799][537]BlueprintLog: New page: Compile BP_Avateering_Poseable
+[2016.09.14-09.23.27:955][537]BlueprintEditorCompileResults: Info [4404.02] Compile of BP_Avateering_Poseable successful! [in 155 ms] (/Game/Blueprints/Avateering/BP_Avateering_Poseable.BP_Avateering_Poseable)
+[2016.09.14-09.23.52:485][449]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_Test' took 0.014
+[2016.09.14-09.23.52:487][449]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Avateering/BP_Avateering_Poseable] ([1] browsable assets)...
+[2016.09.14-09.23.52:487][449]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Avateering/BP_Avateering_Poseable]
+[2016.09.14-09.23.52:554][449]LogSavePackage: Save=53.48ms
+[2016.09.14-09.23.52:554][449]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/BP_Avateering_Poseable_Auto2D6B305FB43CFF3B400C1788E79D03CDD.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Autosaves/Game/Blueprints/Avateering/BP_Avateering_Poseable_Auto2.uasset'
+[2016.09.14-09.23.52:556][449]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Autosaves/Game/Blueprints/Avateering/BP_Avateering_Poseable_Auto2.uasset
+[2016.09.14-09.23.52:556][449]LogFileHelpers: Auto-saving content packages took 0.070
+[2016.09.14-09.23.54:421][669]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.14-09.23.54:421][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.14-09.23.54:421][669]PIE: New page: PIE session: Level_Test (Sep 14, 2016, 12:23:54 PM)
+[2016.09.14-09.23.54:421][669]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.09.14-09.23.54:425][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003506s)
+[2016.09.14-09.23.54:425][669]LogAIModule: Creating AISystem for world Level_Test
+[2016.09.14-09.23.54:425][669]LogPlayLevel: PIE: World Init took: (0.000477s)
+[2016.09.14-09.23.54:426][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.004260s)
+[2016.09.14-09.23.54:457][669]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.14-09.23.54:466][669]LogInit: FAudioDevice initialized.
+[2016.09.14-09.23.54:587][669]LogWorld: Game class is 'MyGameMode_C'
+[2016.09.14-09.23.54:590][669]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.14-11.23.54
+[2016.09.14-09.23.54:591][669]LogWorld: Bringing up level for play took: 0.002257
+[2016.09.14-09.23.54:688][669]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 0.026
+[2016.09.14-09.23.54:689][669]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.14-09.24.07:703][253]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.14-09.24.07:850][253]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.14-09.24.19:865][649]LogSavePackage: Save=80.88ms
+[2016.09.14-09.24.19:865][649]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test8F24E1F841A692D6A6063080ED10640B.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.09.14-09.24.19:867][649]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.09.14-09.24.19:898][649]LogFileHelpers: Saving map 'Level_Test' took
