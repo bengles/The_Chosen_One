@@ -3,16 +3,6 @@
 	"EngineAssociation": "4.12",
 	"Category": "",
 	"Description": "",
-	"Modules": [
-		{
-			"Name": "K4UIntroduction",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine"
-			]
-		}
-	],
 	"Plugins": [
 		{
 			"Name": "Kinect4Unreal",
