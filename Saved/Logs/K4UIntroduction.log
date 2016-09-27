@@ -787,4 +787,121 @@ LogInit: Object subsystem initialized
 [2016.09.27-09.29.07:845][498]LogWorld: Game class is 'MyGameMode_C'
 [2016.09.27-09.29.07:848][498]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-11.29.07
 [2016.09.27-09.29.07:848][498]LogWorld: Bringing up level for play took: 0.001980
-[2016.09.27-09.29.07:933][498]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test -
+[2016.09.27-09.29.07:933][498]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test -0.656
+[2016.09.27-09.29.07:934][498]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.27-09.29.20:103][ 43]LogGameMode: ProcessServerTravel: ?Restart
+[2016.09.27-09.29.20:106][ 44]LogEngine: Server switch level: ?Restart
+[2016.09.27-09.29.20:107][ 44]LogNet: Browse: /Game/Maps/Level_Test?Restart
+[2016.09.27-09.29.20:127][ 44]LogLoad: LoadMap: /Game/Maps/Level_Test
+[2016.09.27-09.29.20:152][ 44]Cmd: MEM
+[2016.09.27-09.29.20:168][ 44]LogMemory: Platform Memory Stats for Windows
+[2016.09.27-09.29.20:168][ 44]LogMemory: Process Physical Memory: 2689.99 MB used, 2716.31 MB peak
+[2016.09.27-09.29.20:168][ 44]LogMemory: Process Virtual Memory: 4105.25 MB used, 4304.44 MB peak
+[2016.09.27-09.29.20:168][ 44]LogMemory: Physical Memory: 7628.30 MB used, 16245.22 MB total
+[2016.09.27-09.29.20:168][ 44]LogMemory: Virtual Memory: 5044.80 MB used, 134217728.00 MB total
+[2016.09.27-09.29.20:168][ 44]LogMemory: 
+[2016.09.27-09.29.20:168][ 44]Allocator Stats for TBB: (not implemented)
+[2016.09.27-09.29.20:168][ 44]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.09.27-09.29.20:173][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005049s)
+[2016.09.27-09.29.20:174][ 44]LogAIModule: Creating AISystem for world Level_Test
+[2016.09.27-09.29.20:174][ 44]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2016.09.27-09.29.20:174][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.006300s)
+[2016.09.27-09.29.20:175][ 44]LogWorld: Game class is 'MyGameMode_C'
+[2016.09.27-09.29.20:177][ 44]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-11.29.20
+[2016.09.27-09.29.20:177][ 44]LogWorld: Bringing up level for play took: 0.001703
+[2016.09.27-09.29.20:221][ 44]LogLoad: Took 0.094475 seconds to LoadMap(/Game/Maps/UEDPIE_0_Level_Test)
+[2016.09.27-09.29.36:837][789]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.27-09.29.36:987][789]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.27-09.33.25:964][ 76]LogSavePackage: Save=117.41ms
+[2016.09.27-09.33.25:964][ 76]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test08B78C6B459410D8C682DF821A41B54A.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.09.27-09.33.25:966][ 76]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.09.27-09.34.46:786][626]BlueprintLog: New page: Compile Level_Test
+[2016.09.27-09.34.46:873][626]BlueprintEditorCompileResults: Info [2301.63] Compile of PersistentLevel.Level_Test successful! [in 87 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.09.27-09.34.51:699][202]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.27-09.34.51:699][202]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.27-09.34.51:699][202]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 12:34:51 PM)
+[2016.09.27-09.34.51:699][202]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.09.27-09.34.51:704][202]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004218s)
+[2016.09.27-09.34.51:704][202]LogAIModule: Creating AISystem for world Level_Test
+[2016.09.27-09.34.51:704][202]LogPlayLevel: PIE: World Init took: (0.000664s)
+[2016.09.27-09.34.51:704][202]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.005269s)
+[2016.09.27-09.34.51:736][202]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.27-09.34.51:746][202]LogInit: FAudioDevice initialized.
+[2016.09.27-09.34.51:859][202]LogWorld: Game class is 'MyGameMode_C'
+[2016.09.27-09.34.51:862][202]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-11.34.51
+[2016.09.27-09.34.51:862][202]LogWorld: Bringing up level for play took: 0.002070
+[2016.09.27-09.34.51:976][202]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test -0.613
+[2016.09.27-09.34.51:977][202]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.27-09.34.57:472][449]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.27-09.34.57:629][449]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.27-09.34.59:599][674]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.27-09.34.59:599][674]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.27-09.34.59:599][674]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 12:34:59 PM)
+[2016.09.27-09.34.59:599][674]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.09.27-09.34.59:604][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004237s)
+[2016.09.27-09.34.59:604][674]LogAIModule: Creating AISystem for world Level_Test
+[2016.09.27-09.34.59:604][674]LogPlayLevel: PIE: World Init took: (0.000510s)
+[2016.09.27-09.34.59:604][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.005053s)
+[2016.09.27-09.34.59:634][674]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.27-09.34.59:642][674]LogInit: FAudioDevice initialized.
+[2016.09.27-09.34.59:754][674]LogWorld: Game class is 'MyGameMode_C'
+[2016.09.27-09.34.59:756][674]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-11.34.59
+[2016.09.27-09.34.59:757][674]LogWorld: Bringing up level for play took: 0.001792
+[2016.09.27-09.34.59:849][674]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test -0.741
+[2016.09.27-09.34.59:849][674]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.27-09.35.12:128][225]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.27-09.35.12:285][225]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.27-09.35.13:973][418]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.27-09.35.13:973][418]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.27-09.35.13:973][418]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 12:35:13 PM)
+[2016.09.27-09.35.13:973][418]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.09.27-09.35.13:977][418]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003942s)
+[2016.09.27-09.35.13:977][418]LogAIModule: Creating AISystem for world Level_Test
+[2016.09.27-09.35.13:978][418]LogPlayLevel: PIE: World Init took: (0.000508s)
+[2016.09.27-09.35.13:978][418]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.004804s)
+[2016.09.27-09.35.14:004][418]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.27-09.35.14:013][418]LogInit: FAudioDevice initialized.
+[2016.09.27-09.35.14:124][418]LogWorld: Game class is 'MyGameMode_C'
+[2016.09.27-09.35.14:127][418]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-11.35.14
+[2016.09.27-09.35.14:127][418]LogWorld: Bringing up level for play took: 0.001718
+[2016.09.27-09.35.14:218][418]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test -0.372
+[2016.09.27-09.35.14:218][418]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.27-09.35.34:290][318]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.27-09.35.34:441][318]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.27-09.35.39:523][918]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.27-09.35.39:523][918]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.27-09.35.39:523][918]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 12:35:39 PM)
+[2016.09.27-09.35.39:524][918]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.09.27-09.35.39:529][918]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004891s)
+[2016.09.27-09.35.39:529][918]LogAIModule: Creating AISystem for world Level_Test
+[2016.09.27-09.35.39:529][918]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2016.09.27-09.35.39:529][918]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.005810s)
+[2016.09.27-09.35.39:560][918]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.27-09.35.39:568][918]LogInit: FAudioDevice initialized.
+[2016.09.27-09.35.39:677][918]LogWorld: Game class is 'MyGameMode_C'
+[2016.09.27-09.35.39:680][918]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-11.35.39
+[2016.09.27-09.35.39:681][918]LogWorld: Bringing up level for play took: 0.002697
+[2016.09.27-09.35.39:778][918]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 1.189
+[2016.09.27-09.35.39:779][918]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.27-09.36.23:809][889]LogGameMode: ProcessServerTravel: ?Restart
+[2016.09.27-09.36.23:812][890]LogEngine: Server switch level: ?Restart
+[2016.09.27-09.36.23:812][890]LogNet: Browse: /Game/Maps/Level_Test?Restart
+[2016.09.27-09.36.23:830][890]LogLoad: LoadMap: /Game/Maps/Level_Test
+[2016.09.27-09.36.23:856][890]Cmd: MEM
+[2016.09.27-09.36.23:877][890]LogMemory: Platform Memory Stats for Windows
+[2016.09.27-09.36.23:877][890]LogMemory: Process Physical Memory: 2810.09 MB used, 2909.35 MB peak
+[2016.09.27-09.36.23:877][890]LogMemory: Process Virtual Memory: 4564.27 MB used, 4835.13 MB peak
+[2016.09.27-09.36.23:877][890]LogMemory: Physical Memory: 7859.93 MB used, 16245.22 MB total
+[2016.09.27-09.36.23:877][890]LogMemory: Virtual Memory: 5639.69 MB used, 134217728.00 MB total
+[2016.09.27-09.36.23:877][890]LogMemory: 
+[2016.09.27-09.36.23:877][890]Allocator Stats for TBB: (not implemented)
+[2016.09.27-09.36.23:878][890]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.09.27-09.36.23:883][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005046s)
+[2016.09.27-09.36.23:883][890]LogAIModule: Creating AISystem for world Level_Test
+[2016.09.27-09.36.23:883][890]LogPlayLevel: PIE: World Init took: (0.000477s)
+[2016.09.27-09.36.23:883][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.005979s)
+[2016.09.27-09.36.23:884][890]LogWorld: Game class is 'MyGameMode_C'
+[2016.09.27-09.36.23:885][890]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-11.36.23
+[2016.09.27-09.36.23:886][890]LogWorld: Bringing up level for play took: 0.001606
+[2016.09.27-09.36.23:939][890]LogLoad: Took 0.108749 seconds to LoadMap(/Game/Maps/UEDPIE_0_Level_Test)
+[2016.
