@@ -1,9 +1,11 @@
-﻿Log file open, 09/27/16 20:04:58
+﻿Log file open, 09/29/16 13:27:07
 LogInit:Display: Running engine for game: K4UIntroduction
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1015256701) SRandInit(1015256702).
+LogInit:Display: RandInit(333536339) SRandInit(333536341).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.067535
+LogStats: Stats thread started at 0.103835
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.8.0(build = 285271) feature version = 0. Client runs version (prod = 1).1.8.0(build = 285271) feature version = 0
 LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
 LogInit: API Version: 2992821
 LogInit: Net Version: 3039270
@@ -25,8 +27,8 @@ LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.12
-LogInit: Command line: -EpicPortal 
-LogInit: Base directory: E:/Program (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Using libcurl 7.41.0
 LogInit:  - built for x86_64-pc-win32
@@ -44,645 +46,617 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.09.27-18.04.58:962][  0]LogInit: Selected Device Profile: [Windows]
-[2016.09.27-18.04.58:962][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.09.27-18.04.58:973][  0]LogInit: Computer: LUDWIG
-[2016.09.27-18.04.58:973][  0]LogInit: User: Ludde
-[2016.09.27-18.04.58:973][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.09.27-18.04.58:973][  0]LogInit: High frequency timer resolution =3.415991 MHz
-[2016.09.27-18.04.58:973][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
-[2016.09.27-18.04.58:973][  0]LogMemory: Platform Memory Stats for Windows
-[2016.09.27-18.04.58:973][  0]LogMemory: Process Physical Memory: 190.31 MB used, 190.31 MB peak
-[2016.09.27-18.04.58:973][  0]LogMemory: Process Virtual Memory: 194.96 MB used, 194.96 MB peak
-[2016.09.27-18.04.58:973][  0]LogMemory: Physical Memory: 4524.09 MB used, 12228.20 MB total
-[2016.09.27-18.04.58:973][  0]LogMemory: Virtual Memory: 553.97 MB used, 134217728.00 MB total
-[2016.09.27-18.04.58:997][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
-[2016.09.27-18.04.59:342][  0]LogD3D11RHI: D3D11 adapters:
-[2016.09.27-18.04.59:350][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
-[2016.09.27-18.04.59:350][  0]LogD3D11RHI:       3053/0/6114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2016.09.27-18.04.59:352][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.09.27-18.04.59:352][  0]LogD3D11RHI:       0/0/6114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2016.09.27-18.04.59:352][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.09.27-18.04.59:355][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.09.27-18.04.59:355][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
-[2016.09.27-18.04.59:355][  0]LogWindows: EnumDisplayDevices:
-[2016.09.27-18.04.59:356][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
-[2016.09.27-18.04.59:356][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2016.09.27-18.04.59:356][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2016.09.27-18.04.59:356][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2016.09.27-18.04.59:356][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2016.09.27-18.04.59:356][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2016.09.27-18.04.59:357][  0]LogWindows: DebugString: FoundDriverCount:6 
-[2016.09.27-18.04.59:357][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
-[2016.09.27-18.04.59:357][  0]LogD3D11RHI:   Driver Version: Crimson 16.7.3 (internal:16.300.2311.0, unified:16.300.2311.0)
-[2016.09.27-18.04.59:357][  0]LogD3D11RHI:      Driver Date: 7-18-2016
-[2016.09.27-18.04.59:357][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.09.27-18.04.59:362][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2016.09.27-18.04.59:373][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2016.09.27-18.04.59:374][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Intermediate/Shaders/WorkingDirectory/8744/).
-[2016.09.27-18.04.59:374][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ludde/AppData/Local/Temp/UnrealShaderWorkingDir/AC6B505E4DD36CD39508208F9BBB955A/'.
-[2016.09.27-18.04.59:374][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.09.27-18.05.00:143][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.09.27-18.05.00:150][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.09.27-18.05.00:157][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.09.27-18.05.00:165][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.09.27-18.05.00:172][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.09.27-18.05.00:178][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.09.27-18.05.00:184][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.09.27-18.05.00:191][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.09.27-18.05.00:197][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.09.27-18.05.00:203][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.09.27-18.05.00:210][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.09.27-18.05.00:222][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.09.27-18.05.00:222][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.09.27-18.05.00:223][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.09.27-18.05.00:242][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.09.27-18.05.00:248][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.09.27-18.05.00:254][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.09.27-18.05.00:260][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.09.27-18.05.00:267][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.09.27-18.05.00:267][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.09.27-18.05.00:318][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.09.27-18.05.00:361][  0]LogDerivedDataCache: Loaded boot cache 0.04s 48MB C:/Users/Ludde/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.09.27-18.05.00:361][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Ludde/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
-[2016.09.27-18.05.00:361][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.09.27-18.05.00:361][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.09.27-18.05.00:361][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.09.27-18.05.00:361][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.09.27-18.05.00:376][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.09.27-18.05.00:388][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ludde/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.09.27-18.05.00:557][  0]LogInit: Selected Device Profile: [Windows]
-[2016.09.27-18.05.00:558][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.09.27-18.05.00:681][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.09.27-18.05.00:681][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.09.27-18.05.00:681][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.09.27-18.05.00:910][  0]LogAssetRegistry: FAssetRegistry took 0.0211 seconds to start up
-[2016.09.27-18.05.00:924][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.012080 seconds
-[2016.09.27-18.05.00:929][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
-[2016.09.27-18.05.00:929][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
-[2016.09.27-18.05.00:929][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.09.27-18.05.00:933][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.09.27-18.05.01:057][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.09.27-18.05.01:057][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.09.27-18.05.01:582][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.09.27-18.05.01:749][  0]SourceControl: Info Source control is disabled
-[2016.09.27-18.05.01:908][  0]LogEngine: Initializing Engine...
-[2016.09.27-18.05.01:908][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.09.27-18.05.01:909][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.09.27-18.05.02:020][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.09.27-18.05.02:025][  0]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.09.27-18.05.02:034][  0]LogInit: FAudioDevice initialized.
-[2016.09.27-18.05.02:057][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/Ludde/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.09.27-18.05.02:062][  0]LogInit: Texture streaming: Enabled
-[2016.09.27-18.05.02:098][  0]LogInit: Transaction tracking system initialized
-[2016.09.27-18.05.02:113][  0]BlueprintLog: New page: Editor Load
-[2016.09.27-18.05.02:161][  0]LocalizationService: Info Localization service is disabled
-[2016.09.27-18.05.02:202][  0]LogConsoleResponse:Display: 
-[2016.09.27-18.05.02:296][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.09.27-18.05.02:296][  0]LogCook:Display: Mobile HDR setting 1
-[2016.09.27-18.05.02:363][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/' took 0.01s
-[2016.09.27-18.05.02:363][  0]Cmd: MAP LOAD FILE="C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/Maps/Level_Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.09.27-18.05.02:364][  0]LightingResults: New page: Lighting Build
-[2016.09.27-18.05.02:365][  0]MapCheck: New page: Map Check
-[2016.09.27-18.05.02:365][  0]LightingResults: New page: Lighting Build
-[2016.09.27-18.05.03:328][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Bullet-Time...
-[2016.09.27-18.05.03:546][  0]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/Bullet-Time.Bullet-Time.
-[2016.09.27-18.05.03:589][  0]LogAIModule: Creating AISystem for world Level_Test
-[2016.09.27-18.05.03:616][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.09.27-18.05.03:622][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.09.27-18.05.03:651][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 29.004ms to complete.
-[2016.09.27-18.05.03:651][  0]LogFileHelpers: Loading map 'Level_Test' took 1.288
-[2016.09.27-18.05.04:170][  0]LogCollectionManager: Loaded 0 collections in 0.001321 seconds
-[2016.09.27-18.05.04:322][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Saved/Collections/' took 0.01s
-[2016.09.27-18.05.04:322][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/Developers/Ludde/Collections/' took 0.01s
-[2016.09.27-18.05.04:322][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/Collections/' took 0.01s
-[2016.09.27-18.05.04:322][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2016.09.27-18.05.04:356][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2064 classes and 377 folders.
-[2016.09.27-18.05.04:393][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.09.27-18.05.04:415][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.022 s
-[2016.09.27-18.05.04:416][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 12 classes and 0 folders.
-[2016.09.27-18.05.04:447][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2016.09.27-18.05.05:784][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2016.09.27-18.05.05:846][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2016.09.27-18.05.06:499][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.09.27-18.05.06:860][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.09.27-18.05.06:897][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2016.09.27-18.05.06:898][  0]LogLoad: Full Startup: 8.51 seconds (BP compile: 0.15 seconds)
-[2016.09.27-18.05.06:898][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2016.09.27-18.05.06:898][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2016.09.27-18.05.07:240][  0]LogOcInput: OculusInput pre-init called
-[2016.09.27-18.05.07:403][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.09.27-18.05.08:046][  0]LogRenderer: Reallocating scene render targets to support 1120x576 (Frame:2).
-[2016.09.27-18.05.08:540][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/' took 1.27s
-[2016.09.27-18.05.08:902][  2]LogAssetRegistry: Asset discovery search completed in 8.0139 seconds
-[2016.09.27-18.05.08:902][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.09.27-18.05.08:902][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
-[2016.09.27-18.05.42:759][503]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (AmbientSound)
-[2016.09.27-18.05.46:023][842]LogEditorActor: Deleted Actor: AmbientSound
-[2016.09.27-18.05.46:067][842]LogEditorActor: Deleted 1 Actors (0.060 secs)
-[2016.09.27-18.05.47:997][ 38]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.05.48:005][ 38]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.09.27-18.05.48:097][ 38]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 9:05:48 PM)
-[2016.09.27-18.05.48:097][ 38]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
-[2016.09.27-18.05.48:102][ 38]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005410s)
-[2016.09.27-18.05.48:103][ 38]LogAIModule: Creating AISystem for world Level_Test
-[2016.09.27-18.05.48:103][ 38]LogPlayLevel: PIE: World Init took: (0.000557s)
-[2016.09.27-18.05.48:103][ 38]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.006195s)
-[2016.09.27-18.05.48:113][ 38]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.09.27-18.05.48:121][ 38]LogInit: FAudioDevice initialized.
-[2016.09.27-18.05.48:268][ 38]LogWorld: Game class is 'MyGameMode_C'
-[2016.09.27-18.05.48:319][ 38]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-20.05.48
-[2016.09.27-18.05.48:329][ 38]LogWorld: Bringing up level for play took: 0.012146
-[2016.09.27-18.05.48:396][ 38]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
-[2016.09.27-18.05.48:506][ 38]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 1.296
-[2016.09.27-18.05.48:506][ 38]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.06.01:479][989]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.06.01:607][989]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.06.01:651][989]LogActorComponent: ReregisterComponent: (/Game/Maps/Level_Test.Level_Test:PersistentLevel.AmbientSound_1.AudioComponent0) Not currently registered. Aborting.
-[2016.09.27-18.06.04:505][289]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.06.04:505][289]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.09.27-18.06.04:505][289]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 9:06:04 PM)
-[2016.09.27-18.06.04:505][289]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
-[2016.09.27-18.06.04:511][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006283s)
-[2016.09.27-18.06.04:512][289]LogAIModule: Creating AISystem for world Level_Test
-[2016.09.27-18.06.04:512][289]LogPlayLevel: PIE: World Init took: (0.000567s)
-[2016.09.27-18.06.04:512][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.007039s)
-[2016.09.27-18.06.04:522][289]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.09.27-18.06.04:530][289]LogInit: FAudioDevice initialized.
-[2016.09.27-18.06.04:575][289]LogWorld: Game class is 'MyGameMode_C'
-[2016.09.27-18.06.04:578][289]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-20.06.04
-[2016.09.27-18.06.04:578][289]LogWorld: Bringing up level for play took: 0.001852
-[2016.09.27-18.06.04:636][289]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test -0.575
-[2016.09.27-18.06.04:636][289]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.06.11:657][822]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.06.11:689][822]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.06.11:705][822]LogActorComponent: ReregisterComponent: (/Game/Maps/Level_Test.Level_Test:PersistentLevel.AmbientSound_1.AudioComponent0) Not currently registered. Aborting.
-[2016.09.27-18.07.02:482][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.EdGraphNode_Comment_884' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:482][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.EdGraphNode_Comment_886' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:482][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.EdGraphNode_Comment_888' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:482][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.EdGraphNode_Comment_206' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:482][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.EdGraphNode_Comment_208' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:482][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.EdGraphNode_Comment_858' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_AssignmentStatement_456' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_AssignmentStatement_458' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_AssignmentStatement_459' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_AssignmentStatement_460' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_AssignmentStatement_193' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_AssignmentStatement_195' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_CallArrayFunction_1154' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_CallArrayFunction_1169' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_CallArrayFunction_1970' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_CallArrayFunction_1315' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_CallArrayFunction_1925' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_CallArrayFunction_1926' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_CallArrayFunction_1927' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageVectorSamples.K2Node_CallArrayFunction_1154' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageVectorSamples.K2Node_CallArrayFunction_1169' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageVectorSamples.K2Node_CallArrayFunction_1970' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_CallFunction_90500' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_CallFunction_130597' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_CallFunction_96356' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_CallFunction_96358' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageVectorSamples.K2Node_CallFunction_130596' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageVectorSamples.K2Node_CallFunction_90500' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_CommutativeAssociativeBinaryOperator_2278' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_CommutativeAssociativeBinaryOperator_2279' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_CommutativeAssociativeBinaryOperator_1545' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_IfThenElse_243' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_IfThenElse_662' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_IfThenElse_648' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageVectorSamples.K2Node_IfThenElse_243' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_MacroInstance_1920' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_MacroInstance_1092' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_TemporaryVariable_435' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_TemporaryVariable_455' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_TemporaryVariable_475' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_TemporaryVariable_121' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:483][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_TemporaryVariable_200' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:484][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageVectorSamples.K2Node_TemporaryVariable_53' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:484][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_Tunnel_156' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:484][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_Tunnel_157' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:484][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_Tunnel_154' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:484][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_Tunnel_155' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:484][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageVectorSamples.K2Node_Tunnel_64' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:484][773]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageVectorSamples.K2Node_Tunnel_65' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2016.09.27-18.07.02:739][773]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 111 classes and 0 folders.
-[2016.09.27-18.08.40:542][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewSoundAttenuation" FILE="C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/NewSoundAttenuation.uasset" SILENT=true
-[2016.09.27-18.08.40:600][201]LogSavePackage: Save=35.00ms
-[2016.09.27-18.08.40:600][201]LogSavePackage: Moving 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Saved/NewSoundAttenuationB9F17C4642EA0D45DE17A7AF906EF104.tmp' to 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/NewSoundAttenuation.uasset'
-[2016.09.27-18.08.40:606][201]LogSavePackage:Display: Finished SavePackage C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/NewSoundAttenuation.uasset
-[2016.09.27-18.08.43:420][494]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.08.43:420][494]BlueprintLog: New page: Pre-Play auto-recompile
-[2016.09.27-18.08.43:430][494]LogPlayLevel: [PlayLevel] Compiling BP_Bullet before play...
-[2016.09.27-18.08.43:557][494]LogPlayLevel: PlayLevel: Blueprint regeneration took 136 ms (2 blueprints)
-[2016.09.27-18.08.43:557][494]LogPlayLevel: [PlayLevel] Compiling Level_Test before play...
-[2016.09.27-18.08.43:634][494]LogPlayLevel: PlayLevel: Blueprint regeneration took 213 ms (2 blueprints)
-[2016.09.27-18.08.43:658][494]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 9:08:43 PM)
-[2016.09.27-18.08.43:658][494]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
-[2016.09.27-18.08.43:663][494]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005335s)
-[2016.09.27-18.08.43:664][494]LogAIModule: Creating AISystem for world Level_Test
-[2016.09.27-18.08.43:664][494]LogPlayLevel: PIE: World Init took: (0.000599s)
-[2016.09.27-18.08.43:664][494]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.006148s)
-[2016.09.27-18.08.43:680][494]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.09.27-18.08.43:688][494]LogInit: FAudioDevice initialized.
-[2016.09.27-18.08.43:734][494]LogWorld: Game class is 'MyGameMode_C'
-[2016.09.27-18.08.43:737][494]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-20.08.43
-[2016.09.27-18.08.43:737][494]LogWorld: Bringing up level for play took: 0.001905
-[2016.09.27-18.08.43:797][494]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 0.586
-[2016.09.27-18.08.43:797][494]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.08.59:484][802]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.08.59:517][802]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.08.59:541][802]LogActorComponent: ReregisterComponent: (/Game/Maps/Level_Test.Level_Test:PersistentLevel.AmbientSound_1.AudioComponent0) Not currently registered. Aborting.
-[2016.09.27-18.12.25:264][290]BlueprintLog: New page: Compile BP_Bullet
-[2016.09.27-18.12.25:992][290]BlueprintEditorCompileResults: Info [0446.97] Compile of BP_Bullet successful! [in 97 ms] (/Game/MyWork/Blueprints/BP_Bullet.BP_Bullet)
-[2016.09.27-18.12.26:495][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWork/Blueprints/BP_Bullet" FILE="C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset" SILENT=true
-[2016.09.27-18.12.26:553][329]LogSavePackage: Save=41.35ms
-[2016.09.27-18.12.26:553][329]LogSavePackage: Moving 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Saved/BP_BulletC95C32F54F65576D930BF495E28575EA.tmp' to 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset'
-[2016.09.27-18.12.26:555][329]LogSavePackage:Display: Finished SavePackage C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset
-[2016.09.27-18.12.28:742][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_Test" FILE="C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/Maps/Level_Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2016.09.27-18.12.29:060][546]LogSavePackage: Save=283.49ms
-[2016.09.27-18.12.29:060][546]LogSavePackage: Moving 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Saved/Level_Test9E24FD1949ABD956CF770FB86C6FD1BA.tmp' to 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/Maps/Level_Test.umap'
-[2016.09.27-18.12.29:062][546]LogSavePackage:Display: Finished SavePackage C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/Maps/Level_Test.umap
-[2016.09.27-18.12.29:647][603]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.12.29:647][603]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.09.27-18.12.29:647][603]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 9:12:29 PM)
-[2016.09.27-18.12.29:647][603]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
-[2016.09.27-18.12.29:653][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005300s)
-[2016.09.27-18.12.29:654][603]LogAIModule: Creating AISystem for world Level_Test
-[2016.09.27-18.12.29:654][603]LogPlayLevel: PIE: World Init took: (0.000597s)
-[2016.09.27-18.12.29:654][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.006186s)
-[2016.09.27-18.12.29:671][603]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.09.27-18.12.29:679][603]LogInit: FAudioDevice initialized.
-[2016.09.27-18.12.29:724][603]LogWorld: Game class is 'MyGameMode_C'
-[2016.09.27-18.12.29:727][603]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-20.12.29
-[2016.09.27-18.12.29:727][603]LogWorld: Bringing up level for play took: 0.001918
-[2016.09.27-18.12.29:788][603]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 0.577
-[2016.09.27-18.12.29:788][603]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.12.58:596][711]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.12.58:627][711]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.13.08:687][679]BlueprintLog: New page: Compile BP_Bullet
-[2016.09.27-18.13.08:808][679]BlueprintEditorCompileResults: Info [0490.42] Compile of BP_Bullet successful! [in 120 ms] (/Game/MyWork/Blueprints/BP_Bullet.BP_Bullet)
-[2016.09.27-18.13.09:352][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWork/Blueprints/BP_Bullet" FILE="C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset" SILENT=true
-[2016.09.27-18.13.09:420][718]LogSavePackage: Save=62.41ms
-[2016.09.27-18.13.09:420][718]LogSavePackage: Moving 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Saved/BP_Bullet0C0555C846F0EF18348AF8AD0B089ABB.tmp' to 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset'
-[2016.09.27-18.13.09:424][718]LogSavePackage:Display: Finished SavePackage C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset
-[2016.09.27-18.13.10:833][781]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.13.10:833][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.09.27-18.13.10:834][781]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 9:13:10 PM)
-[2016.09.27-18.13.10:834][781]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
-[2016.09.27-18.13.10:840][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005908s)
-[2016.09.27-18.13.10:840][781]LogAIModule: Creating AISystem for world Level_Test
-[2016.09.27-18.13.10:840][781]LogPlayLevel: PIE: World Init took: (0.000554s)
-[2016.09.27-18.13.10:840][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.006656s)
-[2016.09.27-18.13.10:856][781]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.09.27-18.13.10:866][781]LogInit: FAudioDevice initialized.
-[2016.09.27-18.13.10:911][781]LogWorld: Game class is 'MyGameMode_C'
-[2016.09.27-18.13.10:913][781]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-20.13.10
-[2016.09.27-18.13.10:914][781]LogWorld: Bringing up level for play took: 0.002184
-[2016.09.27-18.13.10:969][781]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test -0.241
-[2016.09.27-18.13.10:969][781]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.13.26:592][972]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.13.26:621][972]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.13.38:712][188]BlueprintLog: New page: Compile BP_Bullet
-[2016.09.27-18.13.38:829][188]BlueprintEditorCompileResults: Info [0520.44] Compile of BP_Bullet successful! [in 117 ms] (/Game/MyWork/Blueprints/BP_Bullet.BP_Bullet)
-[2016.09.27-18.13.39:273][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWork/Blueprints/BP_Bullet" FILE="C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset" SILENT=true
-[2016.09.27-18.13.39:353][220]LogSavePackage: Save=75.09ms
-[2016.09.27-18.13.39:353][220]LogSavePackage: Moving 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Saved/BP_BulletACB3C23348DB1D9CC19E44BC4F387D55.tmp' to 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset'
-[2016.09.27-18.13.39:357][220]LogSavePackage:Display: Finished SavePackage C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset
-[2016.09.27-18.13.41:155][392]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.13.41:155][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.09.27-18.13.41:155][392]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 9:13:41 PM)
-[2016.09.27-18.13.41:155][392]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
-[2016.09.27-18.13.41:161][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005612s)
-[2016.09.27-18.13.41:161][392]LogAIModule: Creating AISystem for world Level_Test
-[2016.09.27-18.13.41:161][392]LogPlayLevel: PIE: World Init took: (0.000470s)
-[2016.09.27-18.13.41:161][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.006282s)
-[2016.09.27-18.13.41:176][392]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.09.27-18.13.41:184][392]LogInit: FAudioDevice initialized.
-[2016.09.27-18.13.41:234][392]LogWorld: Game class is 'MyGameMode_C'
-[2016.09.27-18.13.41:236][392]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-20.13.41
-[2016.09.27-18.13.41:237][392]LogWorld: Bringing up level for play took: 0.001990
-[2016.09.27-18.13.41:293][392]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 0.083
-[2016.09.27-18.13.41:294][392]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.14.01:374][ 22]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.14.01:412][ 22]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.14.12:437][ 61]BlueprintLog: New page: Compile BP_Bullet
-[2016.09.27-18.14.12:576][ 61]BlueprintEditorCompileResults: Info [0554.18] Compile of BP_Bullet successful! [in 138 ms] (/Game/MyWork/Blueprints/BP_Bullet.BP_Bullet)
-[2016.09.27-18.14.12:945][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWork/Blueprints/BP_Bullet" FILE="C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset" SILENT=true
-[2016.09.27-18.14.13:030][ 87]LogSavePackage: Save=71.78ms
-[2016.09.27-18.14.13:030][ 87]LogSavePackage: Moving 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Saved/BP_Bullet83F03A6A48FF71152784328404B276FA.tmp' to 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset'
-[2016.09.27-18.14.13:033][ 87]LogSavePackage:Display: Finished SavePackage C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset
-[2016.09.27-18.14.14:646][247]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.14.14:646][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.09.27-18.14.14:647][247]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 9:14:14 PM)
-[2016.09.27-18.14.14:647][247]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
-[2016.09.27-18.14.14:652][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005610s)
-[2016.09.27-18.14.14:653][247]LogAIModule: Creating AISystem for world Level_Test
-[2016.09.27-18.14.14:653][247]LogPlayLevel: PIE: World Init took: (0.000465s)
-[2016.09.27-18.14.14:653][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.006262s)
-[2016.09.27-18.14.14:668][247]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.09.27-18.14.14:675][247]LogInit: FAudioDevice initialized.
-[2016.09.27-18.14.14:723][247]LogWorld: Game class is 'MyGameMode_C'
-[2016.09.27-18.14.14:726][247]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-20.14.14
-[2016.09.27-18.14.14:726][247]LogWorld: Bringing up level for play took: 0.001913
-[2016.09.27-18.14.14:779][247]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test -0.432
-[2016.09.27-18.14.14:779][247]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.14.31:182][494]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.14.31:214][494]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.14.32:317][601]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.14.32:317][601]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.09.27-18.14.32:317][601]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 9:14:32 PM)
-[2016.09.27-18.14.32:317][601]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
-[2016.09.27-18.14.32:323][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005588s)
-[2016.09.27-18.14.32:324][601]LogAIModule: Creating AISystem for world Level_Test
-[2016.09.27-18.14.32:324][601]LogPlayLevel: PIE: World Init took: (0.000590s)
-[2016.09.27-18.14.32:324][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.006435s)
-[2016.09.27-18.14.32:339][601]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.09.27-18.14.32:347][601]LogInit: FAudioDevice initialized.
-[2016.09.27-18.14.32:393][601]LogWorld: Game class is 'MyGameMode_C'
-[2016.09.27-18.14.32:396][601]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-20.14.32
-[2016.09.27-18.14.32:396][601]LogWorld: Bringing up level for play took: 0.002002
-[2016.09.27-18.14.32:454][601]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test -0.755
-[2016.09.27-18.14.32:454][601]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.14.40:258][225]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.14.40:298][225]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.14.42:485][443]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.14.42:485][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.09.27-18.14.42:485][443]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 9:14:42 PM)
-[2016.09.27-18.14.42:485][443]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
-[2016.09.27-18.14.42:491][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005701s)
-[2016.09.27-18.14.42:491][443]LogAIModule: Creating AISystem for world Level_Test
-[2016.09.27-18.14.42:492][443]LogPlayLevel: PIE: World Init took: (0.000487s)
-[2016.09.27-18.14.42:492][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.006399s)
-[2016.09.27-18.14.42:508][443]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.09.27-18.14.42:516][443]LogInit: FAudioDevice initialized.
-[2016.09.27-18.14.42:561][443]LogWorld: Game class is 'MyGameMode_C'
-[2016.09.27-18.14.42:566][443]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-20.14.42
-[2016.09.27-18.14.42:566][443]LogWorld: Bringing up level for play took: 0.004356
-[2016.09.27-18.14.42:620][443]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test -0.591
-[2016.09.27-18.14.42:620][443]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.14.44:361][579]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.14.44:404][579]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.15.32:483][ 67]BlueprintLog: New page: Compile BP_Bullet
-[2016.09.27-18.15.32:594][ 67]BlueprintEditorCompileResults: Info [0634.20] Compile of BP_Bullet successful! [in 110 ms] (/Game/MyWork/Blueprints/BP_Bullet.BP_Bullet)
-[2016.09.27-18.15.32:967][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWork/Blueprints/BP_Bullet" FILE="C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset" SILENT=true
-[2016.09.27-18.15.33:013][100]LogSavePackage: Save=39.10ms
-[2016.09.27-18.15.33:013][100]LogSavePackage: Moving 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Saved/BP_Bullet9FEAD05B4A7BBD1797D55692C8B01E63.tmp' to 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset'
-[2016.09.27-18.15.33:016][100]LogSavePackage:Display: Finished SavePackage C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset
-[2016.09.27-18.15.34:379][255]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.15.34:379][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.09.27-18.15.34:380][255]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 9:15:34 PM)
-[2016.09.27-18.15.34:380][255]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
-[2016.09.27-18.15.34:385][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005244s)
-[2016.09.27-18.15.34:385][255]LogAIModule: Creating AISystem for world Level_Test
-[2016.09.27-18.15.34:385][255]LogPlayLevel: PIE: World Init took: (0.000498s)
-[2016.09.27-18.15.34:385][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.005907s)
-[2016.09.27-18.15.34:401][255]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.09.27-18.15.34:408][255]LogInit: FAudioDevice initialized.
-[2016.09.27-18.15.34:451][255]LogWorld: Game class is 'MyGameMode_C'
-[2016.09.27-18.15.34:453][255]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-20.15.34
-[2016.09.27-18.15.34:454][255]LogWorld: Bringing up level for play took: 0.001785
-[2016.09.27-18.15.34:508][255]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test -0.702
-[2016.09.27-18.15.34:509][255]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.15.51:044][762]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.15.51:075][762]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.15.58:731][506]BlueprintLog: New page: Compile BP_Bullet
-[2016.09.27-18.15.58:845][506]BlueprintEditorCompileResults: Info [0660.45] Compile of BP_Bullet successful! [in 113 ms] (/Game/MyWork/Blueprints/BP_Bullet.BP_Bullet)
-[2016.09.27-18.15.59:284][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWork/Blueprints/BP_Bullet" FILE="C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset" SILENT=true
-[2016.09.27-18.15.59:338][542]LogSavePackage: Save=46.39ms
-[2016.09.27-18.15.59:338][542]LogSavePackage: Moving 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Saved/BP_Bullet14206C8B412F9B1F97E6649A983CED28.tmp' to 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset'
-[2016.09.27-18.15.59:340][542]LogSavePackage:Display: Finished SavePackage C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset
-[2016.09.27-18.16.00:650][659]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.16.00:650][659]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.09.27-18.16.00:650][659]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 9:16:00 PM)
-[2016.09.27-18.16.00:650][659]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
-[2016.09.27-18.16.00:655][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005492s)
-[2016.09.27-18.16.00:656][659]LogAIModule: Creating AISystem for world Level_Test
-[2016.09.27-18.16.00:656][659]LogPlayLevel: PIE: World Init took: (0.000527s)
-[2016.09.27-18.16.00:656][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.006244s)
-[2016.09.27-18.16.00:672][659]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.09.27-18.16.00:678][659]LogInit: FAudioDevice initialized.
-[2016.09.27-18.16.00:728][659]LogWorld: Game class is 'MyGameMode_C'
-[2016.09.27-18.16.00:731][659]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-20.16.00
-[2016.09.27-18.16.00:731][659]LogWorld: Bringing up level for play took: 0.002062
-[2016.09.27-18.16.00:787][659]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test -0.424
-[2016.09.27-18.16.00:787][659]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.16.39:279][857]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.16.39:314][857]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.16.49:651][393]BlueprintLog: New page: Compile BP_Bullet
-[2016.09.27-18.16.49:796][393]BlueprintEditorCompileResults: Info [0711.40] Compile of BP_Bullet successful! [in 145 ms] (/Game/MyWork/Blueprints/BP_Bullet.BP_Bullet)
-[2016.09.27-18.16.50:148][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWork/Blueprints/BP_Bullet" FILE="C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset" SILENT=true
-[2016.09.27-18.16.50:196][418]LogSavePackage: Save=42.87ms
-[2016.09.27-18.16.50:196][418]LogSavePackage: Moving 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Saved/BP_Bullet144AFF424B5831DB253A1DA608288C34.tmp' to 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset'
-[2016.09.27-18.16.50:197][418]LogSavePackage:Display: Finished SavePackage C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset
-[2016.09.27-18.16.52:225][627]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.16.52:225][627]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.09.27-18.16.52:225][627]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 9:16:52 PM)
-[2016.09.27-18.16.52:225][627]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
-[2016.09.27-18.16.52:231][627]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005659s)
-[2016.09.27-18.16.52:231][627]LogAIModule: Creating AISystem for world Level_Test
-[2016.09.27-18.16.52:231][627]LogPlayLevel: PIE: World Init took: (0.000550s)
-[2016.09.27-18.16.52:231][627]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.006417s)
-[2016.09.27-18.16.52:247][627]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.09.27-18.16.52:254][627]LogInit: FAudioDevice initialized.
-[2016.09.27-18.16.52:299][627]LogWorld: Game class is 'MyGameMode_C'
-[2016.09.27-18.16.52:302][627]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-20.16.52
-[2016.09.27-18.16.52:302][627]LogWorld: Bringing up level for play took: 0.002097
-[2016.09.27-18.16.52:353][627]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test -0.857
-[2016.09.27-18.16.52:353][627]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.17.06:469][996]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.17.06:500][996]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.17.17:476][ 80]BlueprintLog: New page: Compile BP_Bullet
-[2016.09.27-18.17.17:584][ 80]BlueprintEditorCompileResults: Info [0739.19] Compile of BP_Bullet successful! [in 105 ms] (/Game/MyWork/Blueprints/BP_Bullet.BP_Bullet)
-[2016.09.27-18.17.17:903][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWork/Blueprints/BP_Bullet" FILE="C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset" SILENT=true
-[2016.09.27-18.17.17:979][102]LogSavePackage: Save=66.63ms
-[2016.09.27-18.17.17:979][102]LogSavePackage: Moving 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Saved/BP_BulletFC49DB364E8B39051C0958BF48040293.tmp' to 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset'
-[2016.09.27-18.17.17:981][102]LogSavePackage:Display: Finished SavePackage C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset
-[2016.09.27-18.17.19:536][259]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.17.19:536][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.09.27-18.17.19:536][259]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 9:17:19 PM)
-[2016.09.27-18.17.19:536][259]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
-[2016.09.27-18.17.19:542][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005436s)
-[2016.09.27-18.17.19:542][259]LogAIModule: Creating AISystem for world Level_Test
-[2016.09.27-18.17.19:542][259]LogPlayLevel: PIE: World Init took: (0.000533s)
-[2016.09.27-18.17.19:542][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.006191s)
-[2016.09.27-18.17.19:557][259]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.09.27-18.17.19:565][259]LogInit: FAudioDevice initialized.
-[2016.09.27-18.17.19:612][259]LogWorld: Game class is 'MyGameMode_C'
-[2016.09.27-18.17.19:615][259]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-20.17.19
-[2016.09.27-18.17.19:615][259]LogWorld: Bringing up level for play took: 0.002098
-[2016.09.27-18.17.19:667][259]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 0.456
-[2016.09.27-18.17.19:667][259]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.17.33:513][409]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.17.33:547][409]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.17.38:728][909]BlueprintLog: New page: Compile BP_Bullet
-[2016.09.27-18.17.38:826][909]BlueprintEditorCompileResults: Info [0760.43] Compile of BP_Bullet successful! [in 97 ms] (/Game/MyWork/Blueprints/BP_Bullet.BP_Bullet)
-[2016.09.27-18.17.39:733][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWork/Blueprints/BP_Bullet" FILE="C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset" SILENT=true
-[2016.09.27-18.17.39:817][990]LogSavePackage: Save=66.77ms
-[2016.09.27-18.17.39:817][990]LogSavePackage: Moving 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Saved/BP_BulletFACE3C7F4CDE6024F80252879CD2E152.tmp' to 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset'
-[2016.09.27-18.17.39:819][990]LogSavePackage:Display: Finished SavePackage C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset
-[2016.09.27-18.17.41:384][141]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.17.41:384][141]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.09.27-18.17.41:384][141]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 9:17:41 PM)
-[2016.09.27-18.17.41:384][141]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
-[2016.09.27-18.17.41:390][141]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005619s)
-[2016.09.27-18.17.41:390][141]LogAIModule: Creating AISystem for world Level_Test
-[2016.09.27-18.17.41:390][141]LogPlayLevel: PIE: World Init took: (0.000517s)
-[2016.09.27-18.17.41:390][141]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.006352s)
-[2016.09.27-18.17.41:407][141]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.09.27-18.17.41:414][141]LogInit: FAudioDevice initialized.
-[2016.09.27-18.17.41:461][141]LogWorld: Game class is 'MyGameMode_C'
-[2016.09.27-18.17.41:463][141]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-20.17.41
-[2016.09.27-18.17.41:464][141]LogWorld: Bringing up level for play took: 0.002038
-[2016.09.27-18.17.41:518][141]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 0.307
-[2016.09.27-18.17.41:518][141]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.18.15:540][352]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.18.15:579][352]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.18.23:043][124]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.18.23:043][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.09.27-18.18.23:043][124]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 9:18:23 PM)
-[2016.09.27-18.18.23:043][124]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
-[2016.09.27-18.18.23:048][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005556s)
-[2016.09.27-18.18.23:049][124]LogAIModule: Creating AISystem for world Level_Test
-[2016.09.27-18.18.23:049][124]LogPlayLevel: PIE: World Init took: (0.000493s)
-[2016.09.27-18.18.23:049][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.006266s)
-[2016.09.27-18.18.23:066][124]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.09.27-18.18.23:073][124]LogInit: FAudioDevice initialized.
-[2016.09.27-18.18.23:118][124]LogWorld: Game class is 'MyGameMode_C'
-[2016.09.27-18.18.23:121][124]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-20.18.23
-[2016.09.27-18.18.23:121][124]LogWorld: Bringing up level for play took: 0.002115
-[2016.09.27-18.18.23:175][124]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test -0.036
-[2016.09.27-18.18.23:175][124]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.18.37:513][523]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.18.37:547][523]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.18.50:699][776]BlueprintLog: New page: Compile BP_Bullet
-[2016.09.27-18.18.50:835][776]BlueprintEditorCompileResults: Info [0832.44] Compile of BP_Bullet successful! [in 135 ms] (/Game/MyWork/Blueprints/BP_Bullet.BP_Bullet)
-[2016.09.27-18.18.51:222][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWork/Blueprints/BP_Bullet" FILE="C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset" SILENT=true
-[2016.09.27-18.18.51:296][804]LogSavePackage: Save=68.06ms
-[2016.09.27-18.18.51:296][804]LogSavePackage: Moving 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Saved/BP_Bullet1EBA183F42432C93527F03BA4EAD2009.tmp' to 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset'
-[2016.09.27-18.18.51:299][804]LogSavePackage:Display: Finished SavePackage C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset
-[2016.09.27-18.18.52:546][924]LogVSAccessor:Warning: Couldn't access Visual Studio
-[2016.09.27-18.18.52:547][924]Recompiling Kinect4Unreal...
-[2016.09.27-18.18.52:547][924]Launching UnrealBuildTool... [E:/Program (x86)/Epic Games/4.12/Engine/Binaries/DotNET/UnrealBuildTool.exe K4UIntroduction -ModuleWithSuffix Kinect4Unreal 1498 Win64 Development -editorrecompile -canskiplink "C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/K4UIntroduction.uproject"  -2015]
-[2016.09.27-18.18.52:549][924]Warning: Starting HotReload took  0.0s.
-[2016.09.27-18.18.54:595][141]CompilerResultsLog: New page: Compilation - Sep 27, 2016, 9:18:54 PM
-[2016.09.27-18.18.54:595][141]CompilerResultsLog: Info Creating makefile for hot reloading K4UIntroduction (.uproject file is newer)
-[2016.09.27-18.18.54:595][141]LogMainFrame: MainFrame: Module compiling took 2.050 seconds
-[2016.09.27-18.18.54:596][141]Warning: HotReload failed, recompile failed
-[2016.09.27-18.18.56:590][340]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.18.56:590][340]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.09.27-18.18.56:590][340]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 9:18:56 PM)
-[2016.09.27-18.18.56:590][340]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
-[2016.09.27-18.18.56:595][340]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005268s)
-[2016.09.27-18.18.56:596][340]LogAIModule: Creating AISystem for world Level_Test
-[2016.09.27-18.18.56:596][340]LogPlayLevel: PIE: World Init took: (0.000503s)
-[2016.09.27-18.18.56:596][340]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.005958s)
-[2016.09.27-18.18.56:613][340]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.09.27-18.18.56:620][340]LogInit: FAudioDevice initialized.
-[2016.09.27-18.18.56:667][340]LogWorld: Game class is 'MyGameMode_C'
-[2016.09.27-18.18.56:669][340]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-20.18.56
-[2016.09.27-18.18.56:670][340]LogWorld: Bringing up level for play took: 0.001863
-[2016.09.27-18.18.56:722][340]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test -0.489
-[2016.09.27-18.18.56:722][340]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.19.24:027][456]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.19.24:059][456]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.19.29:825][973]BlueprintLog: New page: Compile BP_Bullet
-[2016.09.27-18.19.29:954][973]BlueprintEditorCompileResults: Info [0871.56] Compile of BP_Bullet successful! [in 128 ms] (/Game/MyWork/Blueprints/BP_Bullet.BP_Bullet)
-[2016.09.27-18.19.30:293][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWork/Blueprints/BP_Bullet" FILE="C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset" SILENT=true
-[2016.09.27-18.19.30:382][996]LogSavePackage: Save=79.18ms
-[2016.09.27-18.19.30:382][996]LogSavePackage: Moving 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Saved/BP_Bullet4E7FC4CA40CC5289EE134B965AA76A83.tmp' to 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset'
-[2016.09.27-18.19.30:384][996]LogSavePackage:Display: Finished SavePackage C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset
-[2016.09.27-18.19.31:845][137]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.19.31:845][137]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.09.27-18.19.31:846][137]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 9:19:31 PM)
-[2016.09.27-18.19.31:846][137]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
-[2016.09.27-18.19.31:852][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005898s)
-[2016.09.27-18.19.31:852][137]LogAIModule: Creating AISystem for world Level_Test
-[2016.09.27-18.19.31:852][137]LogPlayLevel: PIE: World Init took: (0.000502s)
-[2016.09.27-18.19.31:852][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.006569s)
-[2016.09.27-18.19.31:868][137]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.09.27-18.19.31:875][137]LogInit: FAudioDevice initialized.
-[2016.09.27-18.19.31:925][137]LogWorld: Game class is 'MyGameMode_C'
-[2016.09.27-18.19.31:927][137]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-20.19.31
-[2016.09.27-18.19.31:928][137]LogWorld: Bringing up level for play took: 0.002226
-[2016.09.27-18.19.31:984][137]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 0.773
-[2016.09.27-18.19.31:984][137]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.19.53:607][838]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.19.53:643][838]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.20.37:215][981]BlueprintLog: New page: Compile BP_Bullet
-[2016.09.27-18.20.37:346][981]BlueprintEditorCompileResults: Info [0938.95] Compile of BP_Bullet successful! [in 129 ms] (/Game/MyWork/Blueprints/BP_Bullet.BP_Bullet)
-[2016.09.27-18.20.37:701][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWork/Blueprints/BP_Bullet" FILE="C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset" SILENT=true
-[2016.09.27-18.20.37:765][  6]LogSavePackage: Save=57.91ms
-[2016.09.27-18.20.37:765][  6]LogSavePackage: Moving 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Saved/BP_BulletBDAF51B949B35EEEC4EE058969B917E2.tmp' to 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset'
-[2016.09.27-18.20.37:768][  6]LogSavePackage:Display: Finished SavePackage C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset
-[2016.09.27-18.20.39:499][183]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.20.39:499][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.09.27-18.20.39:499][183]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 9:20:39 PM)
-[2016.09.27-18.20.39:499][183]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
-[2016.09.27-18.20.39:505][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005608s)
-[2016.09.27-18.20.39:505][183]LogAIModule: Creating AISystem for world Level_Test
-[2016.09.27-18.20.39:505][183]LogPlayLevel: PIE: World Init took: (0.000562s)
-[2016.09.27-18.20.39:505][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.006395s)
-[2016.09.27-18.20.39:520][183]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.09.27-18.20.39:529][183]LogInit: FAudioDevice initialized.
-[2016.09.27-18.20.39:573][183]LogWorld: Game class is 'MyGameMode_C'
-[2016.09.27-18.20.39:575][183]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-20.20.39
-[2016.09.27-18.20.39:575][183]LogWorld: Bringing up level for play took: 0.001962
-[2016.09.27-18.20.39:634][183]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 0.423
-[2016.09.27-18.20.39:634][183]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.21.01:618][529]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.21.01:653][529]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.21.13:101][693]BlueprintLog: New page: Compile BP_Bullet
-[2016.09.27-18.21.13:215][693]BlueprintEditorCompileResults: Info [0974.82] Compile of BP_Bullet successful! [in 113 ms] (/Game/MyWork/Blueprints/BP_Bullet.BP_Bullet)
-[2016.09.27-18.21.13:599][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWork/Blueprints/BP_Bullet" FILE="C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset" SILENT=true
-[2016.09.27-18.21.13:666][721]LogSavePackage: Save=59.87ms
-[2016.09.27-18.21.13:666][721]LogSavePackage: Moving 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Saved/BP_BulletAC358D734977A8243483369CD43D649A.tmp' to 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset'
-[2016.09.27-18.21.13:667][721]LogSavePackage:Display: Finished SavePackage C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset
-[2016.09.27-18.21.14:714][828]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.21.14:714][828]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.09.27-18.21.14:714][828]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 9:21:14 PM)
-[2016.09.27-18.21.14:714][828]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
-[2016.09.27-18.21.14:722][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007931s)
-[2016.09.27-18.21.14:722][828]LogAIModule: Creating AISystem for world Level_Test
-[2016.09.27-18.21.14:723][828]LogPlayLevel: PIE: World Init took: (0.000705s)
-[2016.09.27-18.21.14:723][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.008874s)
-[2016.09.27-18.21.14:739][828]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.09.27-18.21.14:747][828]LogInit: FAudioDevice initialized.
-[2016.09.27-18.21.14:793][828]LogWorld: Game class is 'MyGameMode_C'
-[2016.09.27-18.21.14:795][828]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-20.21.14
-[2016.09.27-18.21.14:795][828]LogWorld: Bringing up level for play took: 0.002016
-[2016.09.27-18.21.14:847][828]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test -0.364
-[2016.09.27-18.21.14:847][828]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.21.39:038][449]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.21.39:066][449]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.22.29:793][399]BlueprintLog: New page: Compile BP_Bullet
-[2016.09.27-18.22.29:910][399]BlueprintEditorCompileResults: Info [1051.52] Compile of BP_Bullet successful! [in 115 ms] (/Game/MyWork/Blueprints/BP_Bullet.BP_Bullet)
-[2016.09.27-18.22.30:260][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWork/Blueprints/BP_Bullet" FILE="C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset" SILENT=true
-[2016.09.27-18.22.30:348][423]LogSavePackage: Save=79.09ms
-[2016.09.27-18.22.30:348][423]LogSavePackage: Moving 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Saved/BP_Bullet3E4B42104DF41A9BF0EBC388EC673054.tmp' to 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset'
-[2016.09.27-18.22.30:350][423]LogSavePackage:Display: Finished SavePackage C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset
-[2016.09.27-18.22.31:310][523]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.22.31:310][523]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.09.27-18.22.31:310][523]PIE: New page: PIE session: Level_Test (Sep 27, 2016, 9:22:31 PM)
-[2016.09.27-18.22.31:310][523]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
-[2016.09.27-18.22.31:316][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005660s)
-[2016.09.27-18.22.31:316][523]LogAIModule: Creating AISystem for world Level_Test
-[2016.09.27-18.22.31:316][523]LogPlayLevel: PIE: World Init took: (0.000564s)
-[2016.09.27-18.22.31:316][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.006411s)
-[2016.09.27-18.22.31:331][523]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.09.27-18.22.31:339][523]LogInit: FAudioDevice initialized.
-[2016.09.27-18.22.31:386][523]LogWorld: Game class is 'MyGameMode_C'
-[2016.09.27-18.22.31:388][523]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.27-20.22.31
-[2016.09.27-18.22.31:389][523]LogWorld: Bringing up level for play took: 0.002122
-[2016.09.27-18.22.31:441][523]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 0.231
-[2016.09.27-18.22.31:442][523]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.22.46:826][963]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.22.46:873][963]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
-[2016.09.27-18.22.51:161][371]BlueprintLog: New page: Compile BP_Bullet
-[2016.09.27-18.22.51:290][371]BlueprintEditorCompileResults: Info [1072.90] Compile of BP_Bullet successful! [in 128 ms] (/Game/MyWork/Blueprints/BP_Bullet.BP_Bullet)
-[2016.09.27-18.22.51:678][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWork/Blueprints/BP_Bullet" FILE="C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset" SILENT=true
-[2016.09.27-18.22.51:751][398]LogSavePackage: Save=59.93ms
-[2016.09.27-18.22.51:751][398]LogSavePackage: Moving 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Saved/BP_Bullet2582707843800FC80FDDF293DFDF0657.tmp' to 'C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset'
-[2016.09.27-18.22.51:753][398]LogSavePackage:Display: Finished SavePackage C:/Users/Ludde/Documents/Unreal Projects/The_Chosen_One/Content/MyWork/Blueprints/BP_Bullet.uasset
-[2016.09.27-18.22.59:437][152]BlueprintLog: New page: Compile BP_Bullet
-[2016.09.27-18.22.59:576][152]BlueprintEditorCompileResults: Inf
+[2016.09.29-11.27.07:595][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.29-11.27.07:595][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.09.29-11.27.07:619][  0]LogInit: Computer: DESKTOP-PM8KO4J
+[2016.09.29-11.27.07:620][  0]LogInit: User: BjornEnglesson
+[2016.09.29-11.27.07:620][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.09.29-11.27.07:620][  0]LogInit: High frequency timer resolution =3.906251 MHz
+[2016.09.29-11.27.07:621][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.09.29-11.27.07:621][  0]LogMemory: Platform Memory Stats for Windows
+[2016.09.29-11.27.07:621][  0]LogMemory: Process Physical Memory: 194.03 MB used, 194.03 MB peak
+[2016.09.29-11.27.07:621][  0]LogMemory: Process Virtual Memory: 196.37 MB used, 196.37 MB peak
+[2016.09.29-11.27.07:621][  0]LogMemory: Physical Memory: 3374.40 MB used, 16245.22 MB total
+[2016.09.29-11.27.07:621][  0]LogMemory: Virtual Memory: 590.05 MB used, 134217728.00 MB total
+[2016.09.29-11.27.07:850][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.09.29-11.27.08:298][  0]LogD3D11RHI: D3D11 adapters:
+[2016.09.29-11.27.08:315][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 390 Series' (Feature Level 11_0)
+[2016.09.29-11.27.08:315][  0]LogD3D11RHI:       8169/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2016.09.29-11.27.08:320][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.09.29-11.27.08:320][  0]LogD3D11RHI:       112/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.09.29-11.27.08:321][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.09.29-11.27.08:321][  0]LogD3D11RHI:       0/0/8122 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.09.29-11.27.08:321][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.09.29-11.27.08:324][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.09.29-11.27.08:324][  0]LogD3D11RHI:     GPU DeviceId: 0x67b1 (for the marketing name, search the web for "GPU Device Id")
+[2016.09.29-11.27.08:325][  0]LogWindows: EnumDisplayDevices:
+[2016.09.29-11.27.08:325][  0]LogWindows:    0. 'AMD Radeon (TM) R9 390 Series' (P:0 D:1)
+[2016.09.29-11.27.08:325][  0]LogWindows:    1. 'AMD Radeon (TM) R9 390 Series' (P:1 D:1)
+[2016.09.29-11.27.08:325][  0]LogWindows:    2. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2016.09.29-11.27.08:325][  0]LogWindows:    3. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2016.09.29-11.27.08:325][  0]LogWindows:    4. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2016.09.29-11.27.08:325][  0]LogWindows:    5. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2016.09.29-11.27.08:326][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.09.29-11.27.08:326][  0]LogWindows:    7. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.09.29-11.27.08:326][  0]LogWindows:    8. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.09.29-11.27.08:326][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
+[2016.09.29-11.27.08:326][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 390 Series
+[2016.09.29-11.27.08:326][  0]LogD3D11RHI:   Driver Version: Crimson 16.7.3 (internal:16.300.2311.0, unified:16.300.2311.0)
+[2016.09.29-11.27.08:326][  0]LogD3D11RHI:      Driver Date: 7-18-2016
+[2016.09.29-11.27.08:326][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.09.29-11.27.08:332][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.09.29-11.27.08:360][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2016.09.29-11.27.08:367][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Intermediate/Shaders/WorkingDirectory/1212/).
+[2016.09.29-11.27.08:367][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/BJORNE~1/AppData/Local/Temp/UnrealShaderWorkingDir/74D164F44938F65C4368298DE04BB490/'.
+[2016.09.29-11.27.08:367][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.09.29-11.27.09:898][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.09.29-11.27.09:905][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.09.29-11.27.09:912][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.09.29-11.27.09:919][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.09.29-11.27.09:925][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.09.29-11.27.09:933][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.09.29-11.27.09:940][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.09.29-11.27.09:947][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.09.29-11.27.09:953][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.09.29-11.27.09:959][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.09.29-11.27.09:965][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.09.29-11.27.09:978][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.09.29-11.27.09:978][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.09.29-11.27.09:980][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.09.29-11.27.10:023][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.09.29-11.27.10:029][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.09.29-11.27.10:035][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.09.29-11.27.10:041][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.09.29-11.27.10:050][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.09.29-11.27.10:050][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.09.29-11.27.10:312][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.09.29-11.27.10:477][  0]LogDerivedDataCache: Loaded boot cache 0.17s 48MB C:/Users/Bjorn Englesson/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.09.29-11.27.10:477][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bjorn Englesson/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.09.29-11.27.10:477][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.09.29-11.27.10:477][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.09.29-11.27.10:477][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.09.29-11.27.10:477][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.09.29-11.27.10:500][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.09.29-11.27.10:513][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bjorn Englesson/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.09.29-11.27.13:060][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.29-11.27.13:064][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.09.29-11.27.13:374][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.09.29-11.27.13:374][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.09.29-11.27.13:374][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.09.29-11.27.13:943][  0]LogAssetRegistry:Error: Bad name index reading cache 0/0
+[2016.09.29-11.27.13:943][  0]LogAssetRegistry:Error: There was an error loading the asset registry cache. Generating a new one.
+[2016.09.29-11.27.13:943][  0]LogAssetRegistry: FAssetRegistry took 0.0241 seconds to start up
+[2016.09.29-11.27.13:976][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.026212 seconds
+[2016.09.29-11.27.13:984][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.09.29-11.27.13:984][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.09.29-11.27.13:984][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.09.29-11.27.13:989][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.09.29-11.27.14:407][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.29-11.27.14:407][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.29-11.27.16:013][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.09.29-11.27.16:319][  0]SourceControl: Info Source control is disabled
+[2016.09.29-11.27.16:559][  0]LogEngine: Initializing Engine...
+[2016.09.29-11.27.19:517][  0]LogHMD: SteamVR failed to initialize.  Err: 307
+[2016.09.29-11.27.19:525][  0]LogHMD: SteamVR failed to initialize.  Err: 306
+[2016.09.29-11.27.19:537][  0]LogHMD: Oculus plugin initialized. Version: 4.12.5-3039270+++UE4+Release-4.12, LibOVR: 1.8.0, SDK: 1.3.2, built Jul  6 2016, 09:11:15
+[2016.09.29-11.27.19:686][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.09.29-11.27.19:708][  0]LogInit: XAudio2 using 'Högtalare (Razer Surround Audio Controller)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2016.09.29-11.27.19:720][  0]LogInit: FAudioDevice initialized.
+[2016.09.29-11.27.19:740][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/Bjorn Englesson/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.09.29-11.27.19:748][  0]LogInit: Texture streaming: Enabled
+[2016.09.29-11.27.19:779][  0]LogInit: Transaction tracking system initialized
+[2016.09.29-11.27.19:820][  0]BlueprintLog: New page: Editor Load
+[2016.09.29-11.27.19:945][  0]LocalizationService: Info Localization service is disabled
+[2016.09.29-11.27.20:054][  0]LogConsoleResponse:Display: 
+[2016.09.29-11.27.20:254][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.09.29-11.27.20:254][  0]LogCook:Display: Mobile HDR setting 1
+[2016.09.29-11.27.20:409][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/' took 0.01s
+[2016.09.29-11.27.20:409][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.29-11.27.20:880][  0]LightingResults: New page: Lighting Build
+[2016.09.29-11.27.20:888][  0]MapCheck: New page: Map Check
+[2016.09.29-11.27.20:888][  0]LightingResults: New page: Lighting Build
+[2016.09.29-11.27.21:577][  0]LogAIModule: Creating AISystem for world Level_Test
+[2016.09.29-11.27.21:735][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.09.29-11.27.21:736][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.09.29-11.27.21:783][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.611ms to complete.
+[2016.09.29-11.27.21:783][  0]LogFileHelpers: Loading map 'Level_Test' took 1.375
+[2016.09.29-11.27.21:981][  0]LogCollectionManager: Loaded 1 collections in 0.005574 seconds
+[2016.09.29-11.27.22:038][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Collections/' took 0.01s
+[2016.09.29-11.27.22:038][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Developers/BjornEnglesson/Collections/' took 0.01s
+[2016.09.29-11.27.22:038][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Collections/' took 0.01s
+[2016.09.29-11.27.22:038][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000005 seconds
+[2016.09.29-11.27.22:039][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000001 seconds
+[2016.09.29-11.27.22:050][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2064 classes and 377 folders.
+[2016.09.29-11.27.22:056][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.09.29-11.27.22:056][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.09.29-11.27.22:058][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0014 seconds. Added 12 classes and 0 folders.
+[2016.09.29-11.27.22:063][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.09.29-11.27.22:383][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2016.09.29-11.27.22:397][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2016.09.29-11.27.22:547][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.09.29-11.27.22:572][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.09.29-11.27.22:603][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2016.09.29-11.27.22:603][  0]LogLoad: Full Startup: 17.08 seconds (BP compile: 0.17 seconds)
+[2016.09.29-11.27.22:603][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.09.29-11.27.22:603][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.09.29-11.27.22:613][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.09.29-11.27.22:615][  0]LogOcInput: OculusInput pre-init called
+[2016.09.29-11.27.22:625][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.8.0
+[2016.09.29-11.27.22:662][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.09.29-11.27.22:830][  0]LogRenderer: Reallocating scene render targets to support 1112x556 (Frame:2).
+[2016.09.29-11.27.23:048][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/' took 0.42s
+[2016.09.29-11.27.23:057][  1]LogAssetRegistry: Asset discovery search completed in 9.1365 seconds
+[2016.09.29-11.27.23:057][  1]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000004 seconds (found 0 objects)
+[2016.09.29-11.27.23:057][  1]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000023 seconds (updated 0 objects)
+[2016.09.29-11.27.38:092][786]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.27.38:092][786]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.29-11.27.38:093][786]LogApp: UseVRFocus has changed to 1
+[2016.09.29-11.27.38:093][786]LogApp: HasVRFocus has changed to 1
+[2016.09.29-11.27.38:093][786]LogApp: UseVRFocus has changed to 0
+[2016.09.29-11.27.38:093][786]LogApp: HasVRFocus has changed to 0
+[2016.09.29-11.27.38:100][786]PIE: New page: PIE session: Level_Test (Sep 29, 2016, 2:27:38 PM)
+[2016.09.29-11.27.38:100][786]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.09.29-11.27.38:112][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011330s)
+[2016.09.29-11.27.38:112][786]LogAIModule: Creating AISystem for world Level_Test
+[2016.09.29-11.27.38:112][786]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2016.09.29-11.27.38:112][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.012190s)
+[2016.09.29-11.27.38:140][786]LogApp: UseVRFocus has changed to 1
+[2016.09.29-11.27.38:140][786]LogApp: HasVRFocus has changed to 1
+[2016.09.29-11.27.38:140][786]LogApp: UseVRFocus has changed to 0
+[2016.09.29-11.27.38:140][786]LogApp: HasVRFocus has changed to 0
+[2016.09.29-11.27.38:155][786]LogInit: XAudio2 using 'Högtalare (Razer Surround Audio Controller)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2016.09.29-11.27.38:159][786]LogInit: FAudioDevice initialized.
+[2016.09.29-11.27.38:235][786]LogWorld: Game class is 'MyGameMode_C'
+[2016.09.29-11.27.38:239][786]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.29-13.27.38
+[2016.09.29-11.27.38:241][786]LogWorld: Bringing up level for play took: 0.003840
+[2016.09.29-11.27.38:248][786]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2016.09.29-11.27.38:351][786]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 0.156
+[2016.09.29-11.27.38:351][786]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.27.38:385][786]LogRenderer: Reallocating scene render targets to support 1292x756 (Frame:386).
+[2016.09.29-11.27.42:587][280]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.27.42:641][280]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.27.46:478][726]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.27.46:478][726]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.29-11.27.46:478][726]LogApp: UseVRFocus has changed to 1
+[2016.09.29-11.27.46:478][726]LogApp: HasVRFocus has changed to 1
+[2016.09.29-11.27.46:478][726]LogApp: UseVRFocus has changed to 0
+[2016.09.29-11.27.46:478][726]LogApp: HasVRFocus has changed to 0
+[2016.09.29-11.27.46:478][726]PIE: New page: PIE session: Level_Test (Sep 29, 2016, 2:27:46 PM)
+[2016.09.29-11.27.46:479][726]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.09.29-11.27.46:487][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008049s)
+[2016.09.29-11.27.46:487][726]LogAIModule: Creating AISystem for world Level_Test
+[2016.09.29-11.27.46:487][726]LogPlayLevel: PIE: World Init took: (0.000654s)
+[2016.09.29-11.27.46:487][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.008954s)
+[2016.09.29-11.27.46:499][726]LogApp: UseVRFocus has changed to 1
+[2016.09.29-11.27.46:499][726]LogApp: HasVRFocus has changed to 1
+[2016.09.29-11.27.46:499][726]LogApp: UseVRFocus has changed to 0
+[2016.09.29-11.27.46:499][726]LogApp: HasVRFocus has changed to 0
+[2016.09.29-11.27.46:514][726]LogInit: XAudio2 using 'Högtalare (Razer Surround Audio Controller)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2016.09.29-11.27.46:517][726]LogInit: FAudioDevice initialized.
+[2016.09.29-11.27.46:567][726]LogWorld: Game class is 'MyGameMode_C'
+[2016.09.29-11.27.46:570][726]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.29-13.27.46
+[2016.09.29-11.27.46:571][726]LogWorld: Bringing up level for play took: 0.002751
+[2016.09.29-11.27.46:681][726]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 0.486
+[2016.09.29-11.27.46:681][726]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.27.49:520][ 61]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.27.49:569][ 61]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.27.52:552][407]Cmd: MAP LOAD FILE="../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.29-11.27.52:552][407]LightingResults: New page: Lighting Build
+[2016.09.29-11.27.52:553][407]LoadErrors: New page: Loading map: Level_Test.umap
+[2016.09.29-11.27.52:554][407]MapCheck: New page: Map Check
+[2016.09.29-11.27.52:554][407]LightingResults: New page: Lighting Build
+[2016.09.29-11.27.52:678][407]LogAIModule: Creating AISystem for world Level_Test
+[2016.09.29-11.27.52:731][407]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.09.29-11.27.52:766][407]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.09.29-11.27.52:803][407]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.223ms to complete.
+[2016.09.29-11.27.52:803][407]LogFileHelpers: Loading map 'Level_Test' took 0.252
+[2016.09.29-11.27.53:941][539]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.27.53:941][539]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.29-11.27.53:941][539]LogApp: UseVRFocus has changed to 1
+[2016.09.29-11.27.53:941][539]LogApp: HasVRFocus has changed to 1
+[2016.09.29-11.27.53:941][539]LogApp: UseVRFocus has changed to 0
+[2016.09.29-11.27.53:941][539]LogApp: HasVRFocus has changed to 0
+[2016.09.29-11.27.53:941][539]PIE: New page: PIE session: Level_Test (Sep 29, 2016, 2:27:53 PM)
+[2016.09.29-11.27.53:941][539]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.09.29-11.27.53:950][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008452s)
+[2016.09.29-11.27.53:950][539]LogAIModule: Creating AISystem for world Level_Test
+[2016.09.29-11.27.53:950][539]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2016.09.29-11.27.53:951][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.009293s)
+[2016.09.29-11.27.53:968][539]LogApp: UseVRFocus has changed to 1
+[2016.09.29-11.27.53:968][539]LogApp: HasVRFocus has changed to 1
+[2016.09.29-11.27.53:968][539]LogApp: UseVRFocus has changed to 0
+[2016.09.29-11.27.53:968][539]LogApp: HasVRFocus has changed to 0
+[2016.09.29-11.27.53:984][539]LogInit: XAudio2 using 'Högtalare (Razer Surround Audio Controller)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2016.09.29-11.27.53:987][539]LogInit: FAudioDevice initialized.
+[2016.09.29-11.27.54:040][539]LogWorld: Game class is 'MyGameMode_C'
+[2016.09.29-11.27.54:043][539]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.29-13.27.54
+[2016.09.29-11.27.54:043][539]LogWorld: Bringing up level for play took: 0.002432
+[2016.09.29-11.27.54:189][539]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test -0.005
+[2016.09.29-11.27.54:189][539]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.27.56:471][805]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.27.56:522][805]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.27.58:462][ 22]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.27.58:462][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.29-11.27.58:462][ 22]LogApp: UseVRFocus has changed to 1
+[2016.09.29-11.27.58:462][ 22]LogApp: HasVRFocus has changed to 1
+[2016.09.29-11.27.58:462][ 22]LogApp: UseVRFocus has changed to 0
+[2016.09.29-11.27.58:462][ 22]LogApp: HasVRFocus has changed to 0
+[2016.09.29-11.27.58:462][ 22]PIE: New page: PIE session: Level_Test (Sep 29, 2016, 2:27:58 PM)
+[2016.09.29-11.27.58:462][ 22]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.09.29-11.27.58:471][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008961s)
+[2016.09.29-11.27.58:472][ 22]LogAIModule: Creating AISystem for world Level_Test
+[2016.09.29-11.27.58:472][ 22]LogPlayLevel: PIE: World Init took: (0.000521s)
+[2016.09.29-11.27.58:472][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.009749s)
+[2016.09.29-11.27.58:482][ 22]LogApp: UseVRFocus has changed to 1
+[2016.09.29-11.27.58:482][ 22]LogApp: HasVRFocus has changed to 1
+[2016.09.29-11.27.58:482][ 22]LogApp: UseVRFocus has changed to 0
+[2016.09.29-11.27.58:482][ 22]LogApp: HasVRFocus has changed to 0
+[2016.09.29-11.27.58:498][ 22]LogInit: XAudio2 using 'Högtalare (Razer Surround Audio Controller)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2016.09.29-11.27.58:502][ 22]LogInit: FAudioDevice initialized.
+[2016.09.29-11.27.58:558][ 22]LogWorld: Game class is 'MyGameMode_C'
+[2016.09.29-11.27.58:561][ 22]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.29-13.27.58
+[2016.09.29-11.27.58:561][ 22]LogWorld: Bringing up level for play took: 0.002739
+[2016.09.29-11.27.58:679][ 22]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 0.484
+[2016.09.29-11.27.58:679][ 22]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.28.02:438][461]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.28.02:488][461]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.28.11:726][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.EdGraphNode_Comment_884' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:726][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.EdGraphNode_Comment_886' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:726][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.EdGraphNode_Comment_888' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:726][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.EdGraphNode_Comment_206' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:726][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.EdGraphNode_Comment_208' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:726][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.EdGraphNode_Comment_858' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:726][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_AssignmentStatement_456' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:726][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_AssignmentStatement_458' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:726][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_AssignmentStatement_459' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:726][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_AssignmentStatement_460' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:726][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_AssignmentStatement_193' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:726][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_AssignmentStatement_195' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:727][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_CallArrayFunction_1154' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:727][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_CallArrayFunction_1169' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:727][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_CallArrayFunction_1970' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:727][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_CallArrayFunction_1315' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:727][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_CallArrayFunction_1925' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:727][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_CallArrayFunction_1926' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:727][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_CallArrayFunction_1927' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:727][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageVectorSamples.K2Node_CallArrayFunction_1154' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:727][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageVectorSamples.K2Node_CallArrayFunction_1169' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:727][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageVectorSamples.K2Node_CallArrayFunction_1970' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:727][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_CallFunction_90500' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:727][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_CallFunction_130597' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:727][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_CallFunction_96356' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:727][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_CallFunction_96358' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:727][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageVectorSamples.K2Node_CallFunction_130596' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:727][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageVectorSamples.K2Node_CallFunction_90500' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:727][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_CommutativeAssociativeBinaryOperator_2278' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:727][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_CommutativeAssociativeBinaryOperator_2279' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:728][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_CommutativeAssociativeBinaryOperator_1545' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:728][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_IfThenElse_243' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:728][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_IfThenElse_662' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:728][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_IfThenElse_648' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:728][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageVectorSamples.K2Node_IfThenElse_243' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:728][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_MacroInstance_1920' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:728][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_MacroInstance_1092' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:728][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_TemporaryVariable_435' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:728][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_TemporaryVariable_455' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:728][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_TemporaryVariable_475' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:728][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_TemporaryVariable_121' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:728][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_TemporaryVariable_200' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:728][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageVectorSamples.K2Node_TemporaryVariable_53' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:728][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_Tunnel_156' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:728][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageBoolSamples.K2Node_Tunnel_157' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:728][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_Tunnel_154' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:728][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageFloatSamples.K2Node_Tunnel_155' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:728][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageVectorSamples.K2Node_Tunnel_64' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:728][497]LogBlueprint:Warning: Node '/Game/Blueprints/Shared/BPL_MacroLibrary.BPL_MacroLibrary:AverageVectorSamples.K2Node_Tunnel_65' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2016.09.29-11.28.11:760][497]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0019 seconds. Added 111 classes and 0 folders.
+[2016.09.29-11.28.26:129][817]LogSavePackage: Save=97.84ms
+[2016.09.29-11.28.26:129][817]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/BP_Avateering_Poseable164291EA429ED1280C7C80B8D4114EA3.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset'
+[2016.09.29-11.28.26:134][817]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset
+[2016.09.29-11.28.29:672][240]BlueprintLog: New page: Compile BP_Avateering_Poseable
+[2016.09.29-11.28.29:824][240]BlueprintEditorCompileResults: Info [0084.30] Compile of BP_Avateering_Poseable successful! [in 151 ms] (/Game/Blueprints/Avateering/BP_Avateering_Poseable.BP_Avateering_Poseable)
+[2016.09.29-11.28.30:591][325]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.28.30:591][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.29-11.28.30:591][325]LogApp: UseVRFocus has changed to 1
+[2016.09.29-11.28.30:591][325]LogApp: HasVRFocus has changed to 1
+[2016.09.29-11.28.30:591][325]LogApp: UseVRFocus has changed to 0
+[2016.09.29-11.28.30:591][325]LogApp: HasVRFocus has changed to 0
+[2016.09.29-11.28.30:591][325]PIE: New page: PIE session: Level_Test (Sep 29, 2016, 2:28:30 PM)
+[2016.09.29-11.28.30:591][325]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.09.29-11.28.30:600][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009050s)
+[2016.09.29-11.28.30:601][325]LogAIModule: Creating AISystem for world Level_Test
+[2016.09.29-11.28.30:601][325]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2016.09.29-11.28.30:601][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.009765s)
+[2016.09.29-11.28.30:616][325]LogApp: UseVRFocus has changed to 1
+[2016.09.29-11.28.30:616][325]LogApp: HasVRFocus has changed to 1
+[2016.09.29-11.28.30:616][325]LogApp: UseVRFocus has changed to 0
+[2016.09.29-11.28.30:616][325]LogApp: HasVRFocus has changed to 0
+[2016.09.29-11.28.30:631][325]LogInit: XAudio2 using 'Högtalare (Razer Surround Audio Controller)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2016.09.29-11.28.30:635][325]LogInit: FAudioDevice initialized.
+[2016.09.29-11.28.30:689][325]LogWorld: Game class is 'MyGameMode_C'
+[2016.09.29-11.28.30:692][325]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.29-13.28.30
+[2016.09.29-11.28.30:693][325]LogWorld: Bringing up level for play took: 0.002325
+[2016.09.29-11.28.30:791][325]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 0.597
+[2016.09.29-11.28.30:792][325]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.28.46:737][233]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.28.46:788][233]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.29.02:674][118]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.29.02:674][118]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.29-11.29.02:674][118]LogApp: UseVRFocus has changed to 1
+[2016.09.29-11.29.02:674][118]LogApp: HasVRFocus has changed to 1
+[2016.09.29-11.29.02:674][118]LogApp: UseVRFocus has changed to 0
+[2016.09.29-11.29.02:674][118]LogApp: HasVRFocus has changed to 0
+[2016.09.29-11.29.02:674][118]PIE: New page: PIE session: Level_Test (Sep 29, 2016, 2:29:02 PM)
+[2016.09.29-11.29.02:675][118]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.09.29-11.29.02:685][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010222s)
+[2016.09.29-11.29.02:685][118]LogAIModule: Creating AISystem for world Level_Test
+[2016.09.29-11.29.02:685][118]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2016.09.29-11.29.02:686][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.011156s)
+[2016.09.29-11.29.02:703][118]LogApp: UseVRFocus has changed to 1
+[2016.09.29-11.29.02:703][118]LogApp: HasVRFocus has changed to 1
+[2016.09.29-11.29.02:703][118]LogApp: UseVRFocus has changed to 0
+[2016.09.29-11.29.02:703][118]LogApp: HasVRFocus has changed to 0
+[2016.09.29-11.29.02:718][118]LogInit: XAudio2 using 'Högtalare (Razer Surround Audio Controller)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2016.09.29-11.29.02:721][118]LogInit: FAudioDevice initialized.
+[2016.09.29-11.29.02:776][118]LogWorld: Game class is 'MyGameMode_C'
+[2016.09.29-11.29.02:780][118]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.29-13.29.02
+[2016.09.29-11.29.02:780][118]LogWorld: Bringing up level for play took: 0.003387
+[2016.09.29-11.29.02:865][118]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 0.67
+[2016.09.29-11.29.02:865][118]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.29.05:836][470]Set new viewmode: Wireframe
+[2016.09.29-11.29.06:862][593]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.29.06:912][593]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.29.17:888][903]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.29.17:888][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.29-11.29.17:888][903]LogApp: UseVRFocus has changed to 1
+[2016.09.29-11.29.17:888][903]LogApp: HasVRFocus has changed to 1
+[2016.09.29-11.29.17:888][903]LogApp: UseVRFocus has changed to 0
+[2016.09.29-11.29.17:888][903]LogApp: HasVRFocus has changed to 0
+[2016.09.29-11.29.17:889][903]PIE: New page: PIE session: Level_Test (Sep 29, 2016, 2:29:17 PM)
+[2016.09.29-11.29.17:889][903]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.09.29-11.29.17:898][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009565s)
+[2016.09.29-11.29.17:899][903]LogAIModule: Creating AISystem for world Level_Test
+[2016.09.29-11.29.17:899][903]LogPlayLevel: PIE: World Init took: (0.000506s)
+[2016.09.29-11.29.17:899][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.010410s)
+[2016.09.29-11.29.17:914][903]LogApp: UseVRFocus has changed to 1
+[2016.09.29-11.29.17:914][903]LogApp: HasVRFocus has changed to 1
+[2016.09.29-11.29.17:914][903]LogApp: UseVRFocus has changed to 0
+[2016.09.29-11.29.17:914][903]LogApp: HasVRFocus has changed to 0
+[2016.09.29-11.29.17:927][903]LogInit: XAudio2 using 'Högtalare (Razer Surround Audio Controller)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2016.09.29-11.29.17:932][903]LogInit: FAudioDevice initialized.
+[2016.09.29-11.29.17:983][903]LogWorld: Game class is 'MyGameMode_C'
+[2016.09.29-11.29.17:986][903]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.09.29-13.29.17
+[2016.09.29-11.29.17:986][903]LogWorld: Bringing up level for play took: 0.002943
+[2016.09.29-11.29.18:062][903]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test -0.132
+[2016.09.29-11.29.18:063][903]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.29.23:618][564]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.29.23:663][564]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.09.29-11.29.27:658][ 18]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.09.29-11.29.27:807][ 19]Cmd: QUIT_EDITOR
+[2016.09.29-11.29.28:476][ 19]LogExit: Preparing to exit.
+[2016.09.29-11.29.29:243][ 19]LogExit: Editor shut down
+[2016.09.29-11.29.29:243][ 19]LogExit: Transaction tracking system shut down
+[2016.09.29-11.29.29:379][ 19]LogObj: Freed 0b from 0 cluster array pools.
+[2016.09.29-11.29.29:379][ 19]LogExit: Object subsystem successfully closed.
+[2016.09.29-11.29.29:395][ 19]LogD3D11RHI: Shutdown
+[2016.09.29-11.29.29:395][ 19]LogD3D11RHI: CleanupD3DDevice
+[2016.09.29-11.29.29:496][ 19]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.09.29-11.29.29:512][ 19]LogModuleManager: Shutting down and abandoning module BlueprintGraph (217)
+[2016.09.29-11.29.29:512][ 19]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (216)
+[2016.09.29-11.29.29:512][ 19]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (215)
+[2016.09.29-11.29.29:512][ 19]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (214)
+[2016.09.29-11.29.29:512][ 19]LogModuleManager: Shutting down and abandoning module CrashTracker (213)
+[2016.09.29-11.29.29:512][ 19]LogModuleManager: Shutting down and abandoning module SceneOutliner (212)
+[2016.09.29-11.29.29:512][ 19]LogModuleManager: Shutting down and abandoning module WidgetCarousel (211)
+[2016.09.29-11.29.29:512][ 19]LogModuleManager: Shutting down and abandoning module AddContentDialog (210)
+[2016.09.29-11.29.29:513][ 19]LogModuleManager: Shutting down and abandoning module GameplayTags (209)
+[2016.09.29-11.29.29:513][ 19]LogModuleManager: Shutting down and abandoning module EditorWidgets (208)
+[2016.09.29-11.29.29:513][ 19]LogModuleManager: Shutting down and abandoning module CollectionManager (207)
+[2016.09.29-11.29.29:513][ 19]LogModuleManager: Shutting down and abandoning module StatsViewer (206)
+[2016.09.29-11.29.29:513][ 19]LogModuleManager: Shutting down and abandoning module FoliageEdit (205)
+[2016.09.29-11.29.29:513][ 19]LogModuleManager: Shutting down and abandoning module LandscapeEditor (204)
+[2016.09.29-11.29.29:514][ 19]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (203)
+[2016.09.29-11.29.29:514][ 19]LogModuleManager: Shutting down and abandoning module ActorPickerMode (202)
+[2016.09.29-11.29.29:514][ 19]LogModuleManager: Shutting down and abandoning module GeometryMode (201)
+[2016.09.29-11.29.29:514][ 19]LogModuleManager: Shutting down and abandoning module TextureAlignMode (200)
+[2016.09.29-11.29.29:514][ 19]LogModuleManager: Shutting down and abandoning module BspMode (199)
+[2016.09.29-11.29.29:514][ 19]LogModuleManager: Shutting down and abandoning module HardwareSurvey (198)
+[2016.09.29-11.29.29:514][ 19]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (197)
+[2016.09.29-11.29.29:514][ 19]LogModuleManager: Shutting down and abandoning module SequenceRecorder (196)
+[2016.09.29-11.29.29:514][ 19]LogModuleManager: Shutting down and abandoning module AutomationWorker (195)
+[2016.09.29-11.29.29:514][ 19]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (194)
+[2016.09.29-11.29.29:514][ 19]LogModuleManager: Shutting down and abandoning module PlacementMode (193)
+[2016.09.29-11.29.29:514][ 19]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (192)
+[2016.09.29-11.29.29:515][ 19]LogModuleManager: Shutting down and abandoning module CharacterAI (191)
+[2016.09.29-11.29.29:515][ 19]LogModuleManager: Shutting down and abandoning module SmartSnapping (190)
+[2016.09.29-11.29.29:515][ 19]LogModuleManager: Shutting down and abandoning module SessionServices (189)
+[2016.09.29-11.29.29:515][ 19]LogModuleManager: Shutting down and abandoning module ViewportSnapping (188)
+[2016.09.29-11.29.29:515][ 19]LogModuleManager: Shutting down and abandoning module LogVisualizer (187)
+[2016.09.29-11.29.29:515][ 19]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (186)
+[2016.09.29-11.29.29:515][ 19]LogModuleManager: Shutting down and abandoning module IntroTutorials (185)
+[2016.09.29-11.29.29:515][ 19]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (184)
+[2016.09.29-11.29.29:515][ 19]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (183)
+[2016.09.29-11.29.29:515][ 19]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (182)
+[2016.09.29-11.29.29:515][ 19]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (181)
+[2016.09.29-11.29.30:037][ 19]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (180)
+[2016.09.29-11.29.30:037][ 19]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (179)
+[2016.09.29-11.29.30:037][ 19]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (178)
+[2016.09.29-11.29.30:037][ 19]LogModuleManager: Shutting down and abandoning module MergeActors (177)
+[2016.09.29-11.29.30:037][ 19]LogModuleManager: Shutting down and abandoning module SizeMap (176)
+[2016.09.29-11.29.30:037][ 19]LogModuleManager: Shutting down and abandoning module TreeMap (175)
+[2016.09.29-11.29.30:037][ 19]LogModuleManager: Shutting down and abandoning module ReferenceViewer (174)
+[2016.09.29-11.29.30:037][ 19]LogModuleManager: Shutting down and abandoning module LocalizationService (173)
+[2016.09.29-11.29.30:038][ 19]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (172)
+[2016.09.29-11.29.30:038][ 19]LogModuleManager: Shutting down and abandoning module HardwareTargeting (171)
+[2016.09.29-11.29.30:038][ 19]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (170)
+[2016.09.29-11.29.30:038][ 19]LogModuleManager: Shutting down and abandoning module UndoHistory (169)
+[2016.09.29-11.29.30:038][ 19]LogModuleManager: Shutting down and abandoning module UserFeedback (168)
+[2016.09.29-11.29.30:038][ 19]LogModuleManager: Shutting down and abandoning module XmlParser (167)
+[2016.09.29-11.29.30:039][ 19]LogModuleManager: Shutting down and abandoning module Blutility (166)
+[2016.09.29-11.29.30:039][ 19]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (165)
+[2016.09.29-11.29.30:039][ 19]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (164)
+[2016.09.29-11.29.30:039][ 19]LogModuleManager: Shutting down and abandoning module InputBindingEditor (163)
+[2016.09.29-11.29.30:039][ 19]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (162)
+[2016.09.29-11.29.30:039][ 19]LogModuleManager: Shutting down and abandoning module SettingsEditor (161)
+[2016.09.29-11.29.30:039][ 19]LogModuleManager: Shutting down and abandoning module ProjectLauncher (160)
+[2016.09.29-11.29.30:040][ 19]LogModuleManager: Shutting down and abandoning module SessionFrontend (159)
+[2016.09.29-11.29.30:040][ 19]LogModuleManager: Shutting down and abandoning module ProfilerClient (158)
+[2016.09.29-11.29.30:041][ 19]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (157)
+[2016.09.29-11.29.30:041][ 19]LogModuleManager: Shutting down and abandoning module DeviceManager (156)
+[2016.09.29-11.29.30:093][ 19]LogModuleManager: Shutting down and abandoning module AutomationController (155)
+[2016.09.29-11.29.30:094][ 19]LogModuleManager: Shutting down and abandoning module AutomationWindow (154)
+[2016.09.29-11.29.30:095][ 19]LogModuleManager: Shutting down and abandoning module Layers (153)
+[2016.09.29-11.29.30:095][ 19]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (152)
+[2016.09.29-11.29.30:095][ 19]LogModuleManager: Shutting down and abandoning module DetailCustomizations (151)
+[2016.09.29-11.29.30:095][ 19]LogModuleManager: Shutting down and abandoning module PackagesDialog (150)
+[2016.09.29-11.29.30:096][ 19]LogModuleManager: Shutting down and abandoning module Persona (149)
+[2016.09.29-11.29.30:097][ 19]LogModuleManager: Shutting down and abandoning module Kismet (148)
+[2016.09.29-11.29.30:097][ 19]LogModuleManager: Shutting down and abandoning module GraphEditor (147)
+[2016.09.29-11.29.30:097][ 19]LogModuleManager: Shutting down and abandoning module ClassViewer (146)
+[2016.09.29-11.29.30:097][ 19]LogModuleManager: Shutting down and abandoning module Toolbox (145)
+[2016.09.29-11.29.30:097][ 19]LogModuleManager: Shutting down and abandoning module ModuleUI (144)
+[2016.09.29-11.29.30:098][ 19]LogModuleManager: Shutting down and abandoning module MovieSceneTools (143)
+[2016.09.29-11.29.30:098][ 19]LogModuleManager: Shutting down and abandoning module OutputLog (142)
+[2016.09.29-11.29.30:098][ 19]LogModuleManager: Shutting down and abandoning module GammaUI (141)
+[2016.09.29-11.29.30:098][ 19]LogModuleManager: Shutting down and abandoning module Documentation (140)
+[2016.09.29-11.29.30:099][ 19]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (139)
+[2016.09.29-11.29.30:099][ 19]LogModuleManager: Shutting down and abandoning module AnalyticsET (138)
+[2016.09.29-11.29.30:099][ 19]LogModuleManager: Shutting down and abandoning module Analytics (137)
+[2016.09.29-11.29.30:099][ 19]LogModuleManager: Shutting down and abandoning module PortalServices (136)
+[2016.09.29-11.29.30:099][ 19]LogModuleManager: Shutting down and abandoning module PortalRpc (135)
+[2016.09.29-11.29.30:099][ 19]LogModuleManager: Shutting down and abandoning module MessagingRpc (134)
+[2016.09.29-11.29.30:099][ 19]LogModuleManager: Shutting down and abandoning module GameplayDebugger (133)
+[2016.09.29-11.29.30:099][ 19]LogModuleManager: Shutting down and abandoning module AITestSuite (132)
+[2016.09.29-11.29.30:099][ 19]LogModuleManager: Shutting down and abandoning module AIModule (131)
+[2016.09.29-11.29.30:099][ 19]LogModuleManager: Shutting down and abandoning module ProfilerService (130)
+[2016.09.29-11.29.30:124][ 19]LogModuleManager: Shutting down and abandoning module TaskGraph (129)
+[2016.09.29-11.29.30:125][ 19]LogModuleManager: Shutting down and abandoning module SlateRemote (128)
+[2016.09.29-11.29.30:125][ 19]LogModuleManager: Shutting down and abandoning module SteamVRController (127)
+[2016.09.29-11.29.30:125][ 19]LogModuleManager: Shutting down and abandoning module SteamVR (126)
+[2016.09.29-11.29.30:125][ 19]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (125)
+[2016.09.29-11.29.30:125][ 19]LogModuleManager: Shutting down and abandoning module OculusLibrary (124)
+[2016.09.29-11.29.30:125][ 19]LogModuleManager: Shutting down and abandoning module OculusInput (123)
+[2016.09.29-11.29.30:125][ 19]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (122)
+[2016.09.29-11.29.30:125][ 19]LogModuleManager: Shutting down and abandoning module CableComponent (121)
+[2016.09.29-11.29.30:125][ 19]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (120)
+[2016.09.29-11.29.30:125][ 19]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (119)
+[2016.09.29-11.29.30:125][ 19]LogModuleManager: Shutting down and abandoning module HTML5Networking (118)
+[2016.09.29-11.29.30:125][ 19]LogModuleManager: Shutting down and abandoning module SuperSearch (117)
+[2016.09.29-11.29.30:125][ 19]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (116)
+[2016.09.29-11.29.30:126][ 19]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
+[2016.09.29-11.29.30:126][ 19]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
+[2016.09.29-11.29.30:126][ 19]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
+[2016.09.29-11.29.30:126][ 19]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
+[2016.09.29-11.29.30:126][ 19]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
+[2016.09.29-11.29.30:126][ 19]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
+[2016.09.29-11.29.30:126][ 19]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
+[2016.09.29-11.29.30:126][ 19]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
+[2016.09.29-11.29.30:126][ 19]LogModuleManager: Shutting down and abandoning module SourceControl (107)
+[2016.09.29-11.29.30:126][ 19]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
+[2016.09.29-11.29.30:126][ 19]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
+[2016.09.29-11.29.30:126][ 19]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
+[2016.09.29-11.29.30:126][ 19]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
+[2016.09.29-11.29.30:126][ 19]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
+[2016.09.29-11.29.30:126][ 19]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (101)
+[2016.09.29-11.29.30:126][ 19]LogModuleManager: Shutting down and abandoning module HotReload (100)
+[2016.09.29-11.29.30:127][ 19]LogModuleManager: Shutting down and abandoning module MainFrame (99)
+[2016.09.29-11.29.30:127][ 19]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
+[2016.09.29-11.29.30:127][ 19]LogModuleManager: Shutting down and abandoning module ContentBrowser (97)
+[2016.09.29-11.29.30:128][ 19]LogModuleManager: Shutting down and abandoning module Paper2DEditor (96)
+[2016.09.29-11.29.30:129][ 19]LogModuleManager: Shutting down and abandoning module Kinect4Unreal (95)
+[2016.09.29-11.29.30:129][ 19]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.09.29-11.29.30:229][ 19]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.09.29-11.29.30:229][ 19]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.09.29-11.29.30:229][ 19]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.09.29-11.29.30:229][ 19]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.09.29-11.29.30:229][ 19]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.09.29-11.29.30:230][ 19]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.09.29-11.29.30:230][ 19]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.09.29-11.29.30:230][ 19]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.09.29-11.29.30:230][ 19]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.09.29-11.29.30:230][ 19]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.09.29-11.29.30:230][ 19]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.09.29-11.29.30:230][ 19]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.09.29-11.29.30:230][ 19]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.09.29-11.29.30:230][ 19]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.09.29-11.29.30:230][ 19]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.09.29-11.29.30:231][ 19]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.09.29-11.29.30:231][ 19]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.09.29-11.29.30:231][ 19]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.09.29-11.29.30:231][ 19]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.09.29-11.29.30:232][ 19]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.09.29-11.29.30:232][ 19]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.09.29-11.29.30:232][ 19]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.09.29-11.29.30:232][ 19]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.09.29-11.29.30:232][ 19]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.09.29-11.29.30:235][ 19]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.09.29-11.29.30:235][ 19]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.09.29-11.29.30:235][ 19]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.09.29-11.29.30:235][ 19]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.09.29-11.29.30:235][ 19]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.09.29-11.29.30:235][ 19]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.09.29-11.29.30:235][ 19]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.09.29-11.29.30:334][ 19]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.09.29-11.29.30:334][ 19]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.09.29-11.29.30:334][ 19]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.09.29-11.29.30:334][ 19]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.09.29-11.29.30:429][ 19]LogDerivedDataCache: Shutdown
+[2016.09.29-11.29.30:429][ 19]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.09.29-11.29.30:429][ 19]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.09.29-11.29.30:430][ 19]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.09.29-11.29.30:430][ 19]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.09.29-11.29.30:430][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.09.29-11.29.30:430][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.09.29-11.29.30:430][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.09.29-11.29.30:430][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.09.29-11.29.30:430][ 19]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.09.29-11.29.30:430][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.09.29-11.29.30:430][ 19]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.09.29-11.29.30:430][ 19]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.09.29-11.29.30:430][ 19]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.09.29-11.29.30:430][ 19]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.09.29-11.29.30:430][ 19]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.09.29-11.29.30:431][ 19]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.09.29-11.29.31:933][ 19]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.09.29-11.29.31:933][ 19]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.09.29-11.29.31:934][ 19]LogHMD: Oculus shutdown.
+[2016.09.29-11.29.31:934][ 19]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.09.29-11.29.31:934][ 19]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.09.29-11.29.31:934][ 19]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.09.29-11.29.31:934][ 19]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.09.29-11.29.31:934][ 19]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.09.29-11.29.31:936][ 19]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.09.29-11.29.31:936][ 19]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.09.29-11.29.31:936][ 19]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.09.29-11.29.31:936][ 19]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.09.29-11.29.31:936][ 19]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.09.29-11.29.31:936][ 19]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.09.29-11.29.31:936][ 19]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.09.29-11.29.31:936][ 19]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.09.29-11.29.31:936][ 19]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.09.29-11.29.31:936][ 19]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.09.29-11.29.31:938][ 19]LogExit: Exiting.
+[2016.09.29-11.29.31:940][ 19]Log file closed, 09/29/16 13:29:31
