@@ -434,4 +434,183 @@ LogInit: Object subsystem initialized
 [2016.11.01-14.29.58:523][423]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
 [2016.11.01-14.29.58:668][423]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
 [2016.11.01-14.29.59:720][516]LogSavePackage: Save=110.29ms
-[2016.11.01-14.29.59:720][516]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/BP_Avateering_PoseableE7E070B7451700810977758701758C4C.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Po
+[2016.11.01-14.29.59:720][516]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/BP_Avateering_PoseableE7E070B7451700810977758701758C4C.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset'
+[2016.11.01-14.29.59:724][516]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset
+[2016.11.01-14.31.40:398][974]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.01-14.31.40:398][974]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.01-14.35.11:713][756]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.11.01-14.35.54:354][967]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Audio/Ugh2.wav)
+[2016.11.01-14.35.54:357][967]LogAudioDerivedData:Display: Building compressed audio format OGG wave Ugh2...
+[2016.11.01-14.35.54:386][967]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/Ugh2.Ugh2.
+[2016.11.01-14.35.54:388][967]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Audio/Ugh3.wav)
+[2016.11.01-14.35.54:391][967]LogAudioDerivedData:Display: Building compressed audio format OGG wave Ugh3...
+[2016.11.01-14.35.54:400][967]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/Ugh3.Ugh3.
+[2016.11.01-14.35.54:402][967]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Audio/Ugh4.wav)
+[2016.11.01-14.35.54:406][967]LogAudioDerivedData:Display: Building compressed audio format OGG wave Ugh4...
+[2016.11.01-14.35.54:417][967]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/Ugh4.Ugh4.
+[2016.11.01-14.35.57:695][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/Ugh2" FILE="../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Audio/Ugh2.uasset" SILENT=true
+[2016.11.01-14.35.57:701][266]LogSavePackage: Save=3.92ms
+[2016.11.01-14.35.57:701][266]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Ugh2A7B76B8F45F872DB8FD62BAC063B0589.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Audio/Ugh2.uasset'
+[2016.11.01-14.35.57:705][266]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Audio/Ugh2.uasset
+[2016.11.01-14.35.57:713][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/Ugh3" FILE="../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Audio/Ugh3.uasset" SILENT=true
+[2016.11.01-14.35.57:719][266]LogSavePackage: Save=4.14ms
+[2016.11.01-14.35.57:719][266]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Ugh3921DC6BF44C0151AF8539AAAE9998B08.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Audio/Ugh3.uasset'
+[2016.11.01-14.35.57:723][266]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Audio/Ugh3.uasset
+[2016.11.01-14.35.57:730][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/Ugh4" FILE="../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Audio/Ugh4.uasset" SILENT=true
+[2016.11.01-14.35.57:736][266]LogSavePackage: Save=3.90ms
+[2016.11.01-14.35.57:736][266]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Ugh4BCBD7E8F4A9AA6A804447A88180E7A3D.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Audio/Ugh4.uasset'
+[2016.11.01-14.35.57:740][266]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Audio/Ugh4.uasset
+[2016.11.01-14.38.11:985][478]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2016.11.01-14.39.42:880][ 87]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.11.01-14.39.42:880][ 87]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.11.01-14.39.42:880][ 87]LogMaterial:Warning: 	SceneTexture expressions cannot be used in opaque materials
+[2016.11.01-14.41.23:954][934]LogSavePackage: Save=117.77ms
+[2016.11.01-14.41.23:954][934]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/BP_Avateering_Poseable2A7AFA7B4C91BE1B6ACE129A48D47B37.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset'
+[2016.11.01-14.41.23:959][934]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset
+[2016.11.01-14.41.28:785][513]BlueprintLog: New page: Compile BP_Avateering_Poseable
+[2016.11.01-14.41.28:835][513]LogBlueprint:Error: Compiler Error The type of  Array  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2016.11.01-14.41.28:836][513]LogBlueprint:Error: Compiler Error The type of  [ 0]  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2016.11.01-14.41.28:836][513]LogBlueprint:Error: Compiler Error The type of  [ 1]  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2016.11.01-14.41.28:836][513]LogBlueprint:Error: Compiler Error The type of  [ 2]  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2016.11.01-14.41.28:836][513]LogBlueprint:Error: Compiler Error The type of  [ 3]  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2016.11.01-14.41.28:837][513]LogBlueprint:Error: Compiler Error The current value of the ' [ 0] ' pin is invalid: Unsupported type Wildcard on pin [0]
+[2016.11.01-14.41.28:837][513]LogBlueprint:Error: Compiler Error The current value of the ' [ 1] ' pin is invalid: Unsupported type Wildcard on pin [1]
+[2016.11.01-14.41.28:837][513]LogBlueprint:Error: Compiler Error The current value of the ' [ 2] ' pin is invalid: Unsupported type Wildcard on pin [2]
+[2016.11.01-14.41.28:837][513]LogBlueprint:Error: Compiler Error The current value of the ' [ 3] ' pin is invalid: Unsupported type Wildcard on pin [3]
+[2016.11.01-14.41.29:033][513]LogBlueprint:Warning: Compiler Warning [0974.51] Compile of BP_Avateering_Poseable failed. 9 Fatal Issue(s) 0 Warning(s) [in 247 ms] (/Game/Blueprints/Avateering/BP_Avateering_Poseable.BP_Avateering_Poseable)
+[2016.11.01-14.41.29:033][513]BlueprintEditorCompileResults:Error: Error The type of  Array  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2016.11.01-14.41.29:033][513]BlueprintEditorCompileResults:Error: Error The type of  [ 0]  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2016.11.01-14.41.29:033][513]BlueprintEditorCompileResults:Error: Error The type of  [ 1]  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2016.11.01-14.41.29:033][513]BlueprintEditorCompileResults:Error: Error The type of  [ 2]  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2016.11.01-14.41.29:033][513]BlueprintEditorCompileResults:Error: Error The type of  [ 3]  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2016.11.01-14.41.29:033][513]BlueprintEditorCompileResults:Error: Error The current value of the ' [ 0] ' pin is invalid: Unsupported type Wildcard on pin [0]
+[2016.11.01-14.41.29:033][513]BlueprintEditorCompileResults:Error: Error The current value of the ' [ 1] ' pin is invalid: Unsupported type Wildcard on pin [1]
+[2016.11.01-14.41.29:033][513]BlueprintEditorCompileResults:Error: Error The current value of the ' [ 2] ' pin is invalid: Unsupported type Wildcard on pin [2]
+[2016.11.01-14.41.29:033][513]BlueprintEditorCompileResults:Error: Error The current value of the ' [ 3] ' pin is invalid: Unsupported type Wildcard on pin [3]
+[2016.11.01-14.41.29:033][513]BlueprintEditorCompileResults:Warning: Warning [0974.51] Compile of BP_Avateering_Poseable failed. 9 Fatal Issue(s) 0 Warning(s) [in 247 ms] (/Game/Blueprints/Avateering/BP_Avateering_Poseable.BP_Avateering_Poseable)
+[2016.11.01-14.43.04:721][755]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_Test' took 0.025
+[2016.11.01-14.43.04:725][755]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Avateering/BP_Avateering_Poseable] ([1] browsable assets)...
+[2016.11.01-14.43.04:746][755]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Avateering/BP_Avateering_Poseable.BP_Avateering_Poseable]
+[2016.11.01-14.43.04:747][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Avateering/BP_Avateering_Poseable]
+[2016.11.01-14.43.04:879][755]LogSavePackage: Save=119.14ms
+[2016.11.01-14.43.04:879][755]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/BP_Avateering_Poseable_Auto1486D46A045720C8E9D999BB990130DF5.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Autosaves/Game/Blueprints/Avateering/BP_Avateering_Poseable_Auto1.uasset'
+[2016.11.01-14.43.04:881][755]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Autosaves/Game/Blueprints/Avateering/BP_Avateering_Poseable_Auto1.uasset
+[2016.11.01-14.43.04:881][755]LogFileHelpers: Auto-saving content packages took 0.159
+[2016.11.01-14.46.15:987][452]LogEditorTransaction: Undo Move Node
+[2016.11.01-14.46.16:590][508]LogEditorTransaction: Undo Add Node
+[2016.11.01-14.46.17:086][553]LogEditorTransaction: Undo Rename Function
+[2016.11.01-14.46.17:727][614]LogEditorTransaction: Undo Add New Function
+[2016.11.01-14.46.19:605][829]LogEditorTransaction: Undo Delete current selection
+[2016.11.01-14.49.40:782][145]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MakeArray_40.EdGraphPin_8212''
+[2016.11.01-14.51.38:032][904]BlueprintLog: New page: Compile BP_Avateering_Poseable
+[2016.11.01-14.51.38:085][904]LogBlueprint:Error: Compiler Error The current value (/Game/Audio/Ugh__2_.Ugh__2_) of the ' Asset ' pin is invalid: 'Asset' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2016.11.01-14.51.38:367][904]LogBlueprint:Warning: Compiler Warning [1583.85] Compile of BP_Avateering_Poseable failed. 1 Fatal Issue(s) 0 Warning(s) [in 335 ms] (/Game/Blueprints/Avateering/BP_Avateering_Poseable.BP_Avateering_Poseable)
+[2016.11.01-14.51.38:367][904]BlueprintEditorCompileResults:Error: Error The current value (/Game/Audio/Ugh__2_.Ugh__2_) of the ' Asset ' pin is invalid: 'Asset' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2016.11.01-14.51.38:367][904]BlueprintEditorCompileResults:Warning: Warning [1583.85] Compile of BP_Avateering_Poseable failed. 1 Fatal Issue(s) 0 Warning(s) [in 335 ms] (/Game/Blueprints/Avateering/BP_Avateering_Poseable.BP_Avateering_Poseable)
+[2016.11.01-14.53.30:735][462]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_Test' took 0.026
+[2016.11.01-14.53.30:742][462]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Avateering/BP_Avateering_Poseable] ([1] browsable assets)...
+[2016.11.01-14.53.30:758][462]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Avateering/BP_Avateering_Poseable.BP_Avateering_Poseable]
+[2016.11.01-14.53.30:758][462]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Avateering/BP_Avateering_Poseable]
+[2016.11.01-14.53.30:899][462]LogSavePackage: Save=125.40ms
+[2016.11.01-14.53.30:899][462]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/BP_Avateering_Poseable_Auto201226B904F85A8EAC8167184CFEE9F43.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Autosaves/Game/Blueprints/Avateering/BP_Avateering_Poseable_Auto2.uasset'
+[2016.11.01-14.53.30:902][462]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Autosaves/Game/Blueprints/Avateering/BP_Avateering_Poseable_Auto2.uasset
+[2016.11.01-14.53.30:902][462]LogFileHelpers: Auto-saving content packages took 0.166
+[2016.11.01-14.58.11:526][585]LogSavePackage: Save=124.54ms
+[2016.11.01-14.58.11:526][585]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/BP_Avateering_Poseable3D81E6B64F314DC1EBB5FEB95F4ABDD4.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset'
+[2016.11.01-14.58.11:535][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset
+[2016.11.01-14.58.14:588][951]BlueprintLog: New page: Compile BP_Avateering_Poseable
+[2016.11.01-14.58.14:642][951]LogBlueprint:Error: Compiler Error The current value (/Game/Audio/Ugh__2_.Ugh__2_) of the ' Asset ' pin is invalid: 'Asset' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2016.11.01-14.58.15:029][951]LogBlueprint:Warning: Compiler Warning [1980.51] Compile of BP_Avateering_Poseable failed. 1 Fatal Issue(s) 0 Warning(s) [in 441 ms] (/Game/Blueprints/Avateering/BP_Avateering_Poseable.BP_Avateering_Poseable)
+[2016.11.01-14.58.15:029][951]BlueprintEditorCompileResults:Error: Error The current value (/Game/Audio/Ugh__2_.Ugh__2_) of the ' Asset ' pin is invalid: 'Asset' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2016.11.01-14.58.15:029][951]BlueprintEditorCompileResults:Warning: Warning [1980.51] Compile of BP_Avateering_Poseable failed. 1 Fatal Issue(s) 0 Warning(s) [in 441 ms] (/Game/Blueprints/Avateering/BP_Avateering_Poseable.BP_Avateering_Poseable)
+[2016.11.01-14.58.29:204][598]LogSavePackage: Save=124.87ms
+[2016.11.01-14.58.29:204][598]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/BP_Avateering_Poseable25EB2E9B4EF08A994B2CB788F3AD77CD.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset'
+[2016.11.01-14.58.29:209][598]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset
+[2016.11.01-14.58.34:070][153]LogSavePackage: Save=123.27ms
+[2016.11.01-14.58.34:070][153]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/BP_Avateering_Poseable39639F444FC7C9941E621C8D59A0636B.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset'
+[2016.11.01-14.58.34:075][153]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Blueprints/Avateering/BP_Avateering_Poseable.uasset
+[2016.11.01-14.58.35:110][277]BlueprintLog: New page: Compile BP_Avateering_Poseable
+[2016.11.01-14.58.35:315][277]BlueprintEditorCompileResults: Info [2000.80] Compile of BP_Avateering_Poseable successful! [in 204 ms] (/Game/Blueprints/Avateering/BP_Avateering_Poseable.BP_Avateering_Poseable)
+[2016.11.01-14.58.37:056][481]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-14.58.37:057][481]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.01-14.58.37:057][481]PIE: New page: PIE session: Level_Test (Nov 1, 2016, 4:58:37 PM)
+[2016.11.01-14.58.37:057][481]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.11.01-14.58.37:078][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020718s)
+[2016.11.01-14.58.37:078][481]LogAIModule: Creating AISystem for world Level_Test
+[2016.11.01-14.58.37:078][481]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2016.11.01-14.58.37:078][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.021532s)
+[2016.11.01-14.58.37:128][481]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.01-14.58.37:141][481]LogInit: FAudioDevice initialized.
+[2016.11.01-14.58.37:267][481]LogWorld: Game class is 'MyGameMode_C'
+[2016.11.01-14.58.37:275][481]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.11.01-15.58.37
+[2016.11.01-14.58.37:277][481]LogWorld: Bringing up level for play took: 0.008911
+[2016.11.01-14.58.37:334][481]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2016.11.01-14.58.37:408][481]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test -0.126
+[2016.11.01-14.58.37:409][481]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-14.58.49:654][ 30]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.58.53:161][187]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.58.56:915][355]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.58.57:005][359]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.58.57:027][360]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.58.57:992][402]LogGameMode: ProcessServerTravel: ?Restart
+[2016.11.01-14.58.57:994][403]LogEngine: Server switch level: ?Restart
+[2016.11.01-14.58.57:994][403]LogNet: Browse: /Game/Maps/Level_Test?Restart
+[2016.11.01-14.58.58:009][403]LogLoad: LoadMap: /Game/Maps/Level_Test
+[2016.11.01-14.58.58:096][403]Cmd: MEM
+[2016.11.01-14.58.58:112][403]LogMemory: Platform Memory Stats for Windows
+[2016.11.01-14.58.58:112][403]LogMemory: Process Physical Memory: 1902.14 MB used, 2549.46 MB peak
+[2016.11.01-14.58.58:112][403]LogMemory: Process Virtual Memory: 4490.76 MB used, 4944.81 MB peak
+[2016.11.01-14.58.58:112][403]LogMemory: Physical Memory: 7272.25 MB used, 16245.22 MB total
+[2016.11.01-14.58.58:112][403]LogMemory: Virtual Memory: 5957.52 MB used, 134217728.00 MB total
+[2016.11.01-14.58.58:112][403]LogMemory: 
+[2016.11.01-14.58.58:112][403]Allocator Stats for TBB: (not implemented)
+[2016.11.01-14.58.58:112][403]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.11.01-14.58.58:133][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021099s)
+[2016.11.01-14.58.58:133][403]LogAIModule: Creating AISystem for world Level_Test
+[2016.11.01-14.58.58:133][403]LogPlayLevel: PIE: World Init took: (0.000496s)
+[2016.11.01-14.58.58:134][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.021831s)
+[2016.11.01-14.58.58:134][403]LogWorld: Game class is 'MyGameMode_C'
+[2016.11.01-14.58.58:141][403]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.11.01-15.58.58
+[2016.11.01-14.58.58:142][403]LogWorld: Bringing up level for play took: 0.007822
+[2016.11.01-14.58.58:182][403]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2016.11.01-14.58.58:199][403]LogLoad: Took 0.189404 seconds to LoadMap(/Game/Maps/UEDPIE_0_Level_Test)
+[2016.11.01-14.58.58:791][424]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.59.00:602][505]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.59.03:215][622]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.59.03:484][634]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.59.03:506][635]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.59.05:450][722]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.59.05:473][723]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.59.05:695][733]LogGameMode: ProcessServerTravel: ?Restart
+[2016.11.01-14.59.05:717][734]LogEngine: Server switch level: ?Restart
+[2016.11.01-14.59.05:717][734]LogNet: Browse: /Game/Maps/Level_Test?Restart
+[2016.11.01-14.59.05:739][734]LogLoad: LoadMap: /Game/Maps/Level_Test
+[2016.11.01-14.59.05:780][734]Cmd: MEM
+[2016.11.01-14.59.05:797][734]LogMemory: Platform Memory Stats for Windows
+[2016.11.01-14.59.05:797][734]LogMemory: Process Physical Memory: 2059.73 MB used, 2549.46 MB peak
+[2016.11.01-14.59.05:797][734]LogMemory: Process Virtual Memory: 4738.98 MB used, 4944.81 MB peak
+[2016.11.01-14.59.05:797][734]LogMemory: Physical Memory: 7441.25 MB used, 16245.22 MB total
+[2016.11.01-14.59.05:797][734]LogMemory: Virtual Memory: 6198.65 MB used, 134217728.00 MB total
+[2016.11.01-14.59.05:797][734]LogMemory: 
+[2016.11.01-14.59.05:797][734]Allocator Stats for TBB: (not implemented)
+[2016.11.01-14.59.05:797][734]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.11.01-14.59.05:816][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019136s)
+[2016.11.01-14.59.05:817][734]LogAIModule: Creating AISystem for world Level_Test
+[2016.11.01-14.59.05:817][734]LogPlayLevel: PIE: World Init took: (0.000524s)
+[2016.11.01-14.59.05:817][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.019931s)
+[2016.11.01-14.59.05:817][734]LogWorld: Game class is 'MyGameMode_C'
+[2016.11.01-14.59.05:824][734]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.11.01-15.59.05
+[2016.11.01-14.59.05:825][734]LogWorld: Bringing up level for play took: 0.007313
+[2016.11.01-14.59.05:863][734]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2016.11.01-14.59.05:879][734]LogLoad: Took 0.140126 seconds to LoadMap(/Game/Maps/UEDPIE_0_Level_Test)
+[2016.11.01-14.59.06:421][759]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.59.06:466][761]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.59.09:928][916]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.59.10:263][931]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.59.10:308][933]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.59.14:396][116]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.59.14:486][120]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.59.14:508][121]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.59.15:245][154]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.59.15:291][156]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.59.16:631][216]LogGameMode: ProcessServerTravel:
