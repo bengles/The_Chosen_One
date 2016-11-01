@@ -613,4 +613,738 @@ LogInit: Object subsystem initialized
 [2016.11.01-14.59.14:508][121]LogBlueprintUserMessages: [Level_Test_C_1] Hello
 [2016.11.01-14.59.15:245][154]LogBlueprintUserMessages: [Level_Test_C_1] Hello
 [2016.11.01-14.59.15:291][156]LogBlueprintUserMessages: [Level_Test_C_1] Hello
-[2016.11.01-14.59.16:631][216]LogGameMode: ProcessServerTravel:
+[2016.11.01-14.59.16:631][216]LogGameMode: ProcessServerTravel: ?Restart
+[2016.11.01-14.59.16:653][217]LogEngine: Server switch level: ?Restart
+[2016.11.01-14.59.16:653][217]LogNet: Browse: /Game/Maps/Level_Test?Restart
+[2016.11.01-14.59.16:676][217]LogLoad: LoadMap: /Game/Maps/Level_Test
+[2016.11.01-14.59.16:715][217]Cmd: MEM
+[2016.11.01-14.59.16:730][217]LogMemory: Platform Memory Stats for Windows
+[2016.11.01-14.59.16:730][217]LogMemory: Process Physical Memory: 2115.00 MB used, 2549.46 MB peak
+[2016.11.01-14.59.16:730][217]LogMemory: Process Virtual Memory: 4909.70 MB used, 4944.81 MB peak
+[2016.11.01-14.59.16:730][217]LogMemory: Physical Memory: 7491.15 MB used, 16245.22 MB total
+[2016.11.01-14.59.16:730][217]LogMemory: Virtual Memory: 6293.21 MB used, 134217728.00 MB total
+[2016.11.01-14.59.16:730][217]LogMemory: 
+[2016.11.01-14.59.16:730][217]Allocator Stats for TBB: (not implemented)
+[2016.11.01-14.59.16:730][217]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.11.01-14.59.16:753][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023211s)
+[2016.11.01-14.59.16:754][217]LogAIModule: Creating AISystem for world Level_Test
+[2016.11.01-14.59.16:754][217]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2016.11.01-14.59.16:754][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.024025s)
+[2016.11.01-14.59.16:754][217]LogWorld: Game class is 'MyGameMode_C'
+[2016.11.01-14.59.16:762][217]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.11.01-15.59.16
+[2016.11.01-14.59.16:763][217]LogWorld: Bringing up level for play took: 0.007447
+[2016.11.01-14.59.16:800][217]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2016.11.01-14.59.16:818][217]LogLoad: Took 0.142295 seconds to LoadMap(/Game/Maps/UEDPIE_0_Level_Test)
+[2016.11.01-14.59.17:691][257]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.59.20:574][386]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.59.27:946][716]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.59.29:443][783]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.59.29:555][788]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-14.59.29:868][802]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-14.59.30:053][802]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.01.45:203][532]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.01-15.01.45:204][532]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.01-15.01.56:800][713]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2016.11.01-15.02.03:170][368]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.000 s
+[2016.11.01-15.02.03:170][368]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: TabBeingDraggedPtr.IsValid() [File:D:\Build\++UE4+Release-4.12+Compile\Sync\Engine\Source\Runtime\Slate\Private\Framework\Docking\SDockingTabWell.cpp] [Line: 374]
+
+Stack: 
+
+
+[2016.11.01-15.02.03:170][368]LogStats:                SubmitErrorReport -  0.000 s
+[2016.11.01-15.02.03:598][368]LogStats:                    SendNewReport -  0.428 s
+[2016.11.01-15.02.03:598][368]LogStats:             FDebug::EnsureFailed -  0.428 s
+[2016.11.01-15.02.42:917][745]LogSavePackage: Save=489.32ms
+[2016.11.01-15.02.42:917][745]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test3A0C3EA84D57E88DD53FB7B1D750B73B.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.02.42:922][745]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.02.42:952][745]LogFileHelpers: Saving map 'Level_Test' took 0.608
+[2016.11.01-15.03.02:083][ 32]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.03.02:083][ 32]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.01-15.03.02:084][ 32]PIE: New page: PIE session: Level_Test (Nov 1, 2016, 5:03:02 PM)
+[2016.11.01-15.03.02:084][ 32]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.11.01-15.03.02:104][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020174s)
+[2016.11.01-15.03.02:105][ 32]LogAIModule: Creating AISystem for world Level_Test
+[2016.11.01-15.03.02:105][ 32]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2016.11.01-15.03.02:105][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.021065s)
+[2016.11.01-15.03.02:149][ 32]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.01-15.03.02:160][ 32]LogInit: FAudioDevice initialized.
+[2016.11.01-15.03.02:296][ 32]LogWorld: Game class is 'MyGameMode_C'
+[2016.11.01-15.03.02:306][ 32]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.11.01-16.03.02
+[2016.11.01-15.03.02:307][ 32]LogWorld: Bringing up level for play took: 0.010259
+[2016.11.01-15.03.02:353][ 32]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2016.11.01-15.03.02:416][ 32]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 0.881
+[2016.11.01-15.03.02:416][ 32]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.03.06:239][204]LogBlueprintUserMessages: [Level_Test_C_0] Hello
+[2016.11.01-15.03.13:924][548]LogBlueprintUserMessages: [Level_Test_C_0] Hello
+[2016.11.01-15.03.29:406][241]LogBlueprintUserMessages: [Level_Test_C_0] Hello
+[2016.11.01-15.03.40:888][755]LogBlueprintUserMessages: [Level_Test_C_0] Hello
+[2016.11.01-15.03.49:221][128]LogBlueprintUserMessages: [Level_Test_C_0] Hello
+[2016.11.01-15.03.58:225][531]LogBlueprintUserMessages: [Level_Test_C_0] Hello
+[2016.11.01-15.03.59:972][608]LogGameMode: ProcessServerTravel: ?Restart
+[2016.11.01-15.03.59:976][609]LogEngine: Server switch level: ?Restart
+[2016.11.01-15.03.59:976][609]LogNet: Browse: /Game/Maps/Level_Test?Restart
+[2016.11.01-15.03.59:991][609]LogLoad: LoadMap: /Game/Maps/Level_Test
+[2016.11.01-15.04.00:031][609]Cmd: MEM
+[2016.11.01-15.04.00:047][609]LogMemory: Platform Memory Stats for Windows
+[2016.11.01-15.04.00:047][609]LogMemory: Process Physical Memory: 2099.62 MB used, 2549.46 MB peak
+[2016.11.01-15.04.00:047][609]LogMemory: Process Virtual Memory: 4869.98 MB used, 5231.70 MB peak
+[2016.11.01-15.04.00:047][609]LogMemory: Physical Memory: 7938.76 MB used, 16245.22 MB total
+[2016.11.01-15.04.00:047][609]LogMemory: Virtual Memory: 6448.09 MB used, 134217728.00 MB total
+[2016.11.01-15.04.00:047][609]LogMemory: 
+[2016.11.01-15.04.00:047][609]Allocator Stats for TBB: (not implemented)
+[2016.11.01-15.04.00:047][609]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.11.01-15.04.00:067][609]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019960s)
+[2016.11.01-15.04.00:068][609]LogAIModule: Creating AISystem for world Level_Test
+[2016.11.01-15.04.00:068][609]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2016.11.01-15.04.00:068][609]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.020803s)
+[2016.11.01-15.04.00:068][609]LogWorld: Game class is 'MyGameMode_C'
+[2016.11.01-15.04.00:077][609]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.11.01-16.04.00
+[2016.11.01-15.04.00:077][609]LogWorld: Bringing up level for play took: 0.008735
+[2016.11.01-15.04.00:118][609]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2016.11.01-15.04.00:134][609]LogLoad: Took 0.143831 seconds to LoadMap(/Game/Maps/UEDPIE_0_Level_Test)
+[2016.11.01-15.04.01:699][676]LogBlueprintUserMessages: [Level_Test_C_0] Hello
+[2016.11.01-15.04.05:028][825]LogBlueprintUserMessages: [Level_Test_C_0] Hello
+[2016.11.01-15.04.10:948][ 90]LogBlueprintUserMessages: [Level_Test_C_0] Hello
+[2016.11.01-15.04.16:288][329]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.04.16:494][329]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.04.31:207][ 64]BlueprintLog: New page: Compile Level_Test
+[2016.11.01-15.04.31:354][ 64]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2016.11.01-15.04.31:354][ 64]BlueprintEditorCompileResults: Info [2356.84] Compile of PersistentLevel.Level_Test successful! [in 147 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.05.01:219][533]LogSavePackage: Save=471.70ms
+[2016.11.01-15.05.01:219][533]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test28E0705C44705814F77F92A0F3E5C2D0.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.05.01:224][533]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.05.01:257][533]LogFileHelpers: Saving map 'Level_Test' took 0.591
+[2016.11.01-15.05.17:991][439]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.05.17:991][439]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.11.01-15.05.18:018][439]LogPlayLevel: [PlayLevel] Compiling Level_Test before play...
+[2016.11.01-15.05.18:153][439]LogPlayLevel: PlayLevel: Blueprint regeneration took 161 ms (1 blueprints)
+[2016.11.01-15.05.18:175][439]PIE: New page: PIE session: Level_Test (Nov 1, 2016, 5:05:18 PM)
+[2016.11.01-15.05.18:175][439]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.11.01-15.05.18:195][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019423s)
+[2016.11.01-15.05.18:195][439]LogAIModule: Creating AISystem for world Level_Test
+[2016.11.01-15.05.18:195][439]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2016.11.01-15.05.18:195][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.020199s)
+[2016.11.01-15.05.18:244][439]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.01-15.05.18:254][439]LogInit: FAudioDevice initialized.
+[2016.11.01-15.05.18:388][439]LogWorld: Game class is 'MyGameMode_C'
+[2016.11.01-15.05.18:397][439]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.11.01-16.05.18
+[2016.11.01-15.05.18:398][439]LogWorld: Bringing up level for play took: 0.008567
+[2016.11.01-15.05.18:451][439]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2016.11.01-15.05.18:483][439]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 0.948
+[2016.11.01-15.05.18:483][439]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.05.19:466][484]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-15.05.23:309][656]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-15.05.27:711][853]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-15.05.41:920][489]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-15.05.58:697][240]LogBlueprintUserMessages: [Level_Test_C_1] Hello
+[2016.11.01-15.06.05:646][551]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.06.05:958][551]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.06.12:280][110]LogSavePackage: Save=475.22ms
+[2016.11.01-15.06.12:280][110]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test18F4F7BF48BD82B633858DBDFA7EA3F6.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.06.12:285][110]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.06.12:314][110]LogFileHelpers: Saving map 'Level_Test' took 0.585
+[2016.11.01-15.06.39:017][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWork/Blueprints/Shooter" FILE="../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/MyWork/Blueprints/Shooter.uasset" SILENT=true
+[2016.11.01-15.06.39:065][863]LogSavePackage: Save=39.02ms
+[2016.11.01-15.06.39:065][863]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Shooter99AEDF6548453BF8FE9691BB5EF04A71.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/MyWork/Blueprints/Shooter.uasset'
+[2016.11.01-15.06.39:070][863]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/MyWork/Blueprints/Shooter.uasset
+[2016.11.01-15.06.47:648][882]BlueprintLog: New page: Compile Shooter
+[2016.11.01-15.06.47:777][882]BlueprintEditorCompileResults: Info [2493.26] Compile of Shooter successful! [in 128 ms] (/Game/MyWork/Blueprints/Shooter.Shooter)
+[2016.11.01-15.06.50:580][190]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (smith_gun_hand)
+[2016.11.01-15.07.03:676][472]LogSavePackage: Save=471.39ms
+[2016.11.01-15.07.03:676][472]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test63B4AB4F4E7B32AAEE36B4BB2C33781A.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.07.03:680][472]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.07.03:708][472]LogFileHelpers: Saving map 'Level_Test' took 0.583
+[2016.11.01-15.07.14:712][663]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (smith_gun_hand)
+[2016.11.01-15.07.20:610][165]EditorErrors: New page: Actor Reattachment
+[2016.11.01-15.07.20:611][165]LogProperty:Warning: Serialized BlueprintGeneratedClass /Game/MyWork/Blueprints/Shooter.Shooter_C for a property of Class /Script/Engine.StaticMeshActor. Reference will be NULLed.
+    Property = ObjectProperty /Game/Maps/Level_Test.Level_Test_C:smith_gun_hand_2_ExecuteUbergraph_Level_Test_RefProperty
+    Item = Shooter_C /Game/Maps/Level_Test.Level_Test:PersistentLevel.smith_gun_hand_2
+[2016.11.01-15.07.23:261][439]LogEditorViewport: Clicking on Actor (LMB): Shooter_C (Shooter)
+[2016.11.01-15.07.26:244][791]LogEditorViewport: Clicking on Actor (LMB): Shooter_C (smith_gun_hand)
+[2016.11.01-15.07.30:724][242]LogSavePackage: Save=475.26ms
+[2016.11.01-15.07.30:724][242]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test2A19D8494EAEA716737969A6BCE5B8D8.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.07.30:728][242]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.07.30:761][242]LogFileHelpers: Saving map 'Level_Test' took 0.587
+[2016.11.01-15.08.11:912][651]LogSavePackage: Save=479.14ms
+[2016.11.01-15.08.11:912][651]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test6AAB65864CF3EBFDF015DA9093C65B65.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.08.11:916][651]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.08.11:950][651]LogFileHelpers: Saving map 'Level_Test' took 0.602
+[2016.11.01-15.08.46:750][711]LogBlueprint:Error: Compiler Error The current value of the ' Handle ' pin is invalid: 'Handle' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2016.11.01-15.08.46:926][711]LogBlueprint:Warning: Compiler Warning [2612.41] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 0 Warning(s) [in 213 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.08.46:926][711]LogBlueprint:Warning: Compiler Warning [2612.41] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.08.46:926][711]LogBlueprint:Warning: Compiler Warning [2612.41] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.08.46:926][711]LogBlueprint:Warning: Compiler Warning [2612.41] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.08.46:929][711]LogBlueprint:Warning: Compiler Warning [2612.41] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 4 Warning(s) [in 2 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.08.46:929][711]LogBlueprint:Warning: Compiler Warning [2612.41] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.08.47:264][711]LogSavePackage: Save=583.79ms
+[2016.11.01-15.08.47:264][711]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test593838B8473D9F8546C8F68EBE1E6112.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.08.47:269][711]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.08.47:299][711]LogFileHelpers: Saving map 'Level_Test' took 0.696
+[2016.11.01-15.09.02:917][518]LogBlueprint:Error: Compiler Error The current value of the ' Handle ' pin is invalid: 'Handle' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2016.11.01-15.09.03:142][518]LogBlueprint:Warning: Compiler Warning [2628.62] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 0 Warning(s) [in 259 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.09.03:142][518]LogBlueprint:Warning: Compiler Warning [2628.62] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.09.03:143][518]LogBlueprint:Warning: Compiler Warning [2628.62] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.09.03:143][518]LogBlueprint:Warning: Compiler Warning [2628.62] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.09.03:146][518]LogBlueprint:Warning: Compiler Warning [2628.63] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 4 Warning(s) [in 2 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.09.03:146][518]LogBlueprint:Warning: Compiler Warning [2628.63] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.09.03:483][518]LogSavePackage: Save=631.88ms
+[2016.11.01-15.09.03:483][518]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test0C47B4994961A0D1D282E686C0E1C26E.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.09.03:488][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.09.03:517][518]LogFileHelpers: Saving map 'Level_Test' took 0.741
+[2016.11.01-15.09.10:857][325]LogSavePackage: Save=474.76ms
+[2016.11.01-15.09.10:857][325]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test26DC892F43BA835F84909BA5837DFBA1.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.09.10:862][325]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.09.10:893][325]LogFileHelpers: Saving map 'Level_Test' took 0.585
+[2016.11.01-15.09.14:001][694]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.09.14:002][694]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.01-15.09.14:003][694]PIE: New page: PIE session: Level_Test (Nov 1, 2016, 5:09:14 PM)
+[2016.11.01-15.09.14:003][694]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.11.01-15.09.14:027][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023431s)
+[2016.11.01-15.09.14:027][694]LogAIModule: Creating AISystem for world Level_Test
+[2016.11.01-15.09.14:027][694]LogPlayLevel: PIE: World Init took: (0.000440s)
+[2016.11.01-15.09.14:027][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.024105s)
+[2016.11.01-15.09.14:075][694]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.01-15.09.14:087][694]LogInit: FAudioDevice initialized.
+[2016.11.01-15.09.14:218][694]LogWorld: Game class is 'MyGameMode_C'
+[2016.11.01-15.09.14:228][694]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.11.01-16.09.14
+[2016.11.01-15.09.14:229][694]LogWorld: Bringing up level for play took: 0.010017
+[2016.11.01-15.09.14:279][694]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2016.11.01-15.09.14:343][694]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 0.808
+[2016.11.01-15.09.14:343][694]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.09.47:213][165]LogGameMode: ProcessServerTravel: ?Restart
+[2016.11.01-15.09.47:215][166]LogEngine: Server switch level: ?Restart
+[2016.11.01-15.09.47:215][166]LogNet: Browse: /Game/Maps/Level_Test?Restart
+[2016.11.01-15.09.47:231][166]LogLoad: LoadMap: /Game/Maps/Level_Test
+[2016.11.01-15.09.47:271][166]Cmd: MEM
+[2016.11.01-15.09.47:288][166]LogMemory: Platform Memory Stats for Windows
+[2016.11.01-15.09.47:288][166]LogMemory: Process Physical Memory: 2270.46 MB used, 2549.46 MB peak
+[2016.11.01-15.09.47:288][166]LogMemory: Process Virtual Memory: 4956.85 MB used, 5401.38 MB peak
+[2016.11.01-15.09.47:288][166]LogMemory: Physical Memory: 8128.70 MB used, 16245.22 MB total
+[2016.11.01-15.09.47:288][166]LogMemory: Virtual Memory: 6625.53 MB used, 134217728.00 MB total
+[2016.11.01-15.09.47:288][166]LogMemory: 
+[2016.11.01-15.09.47:288][166]Allocator Stats for TBB: (not implemented)
+[2016.11.01-15.09.47:288][166]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.11.01-15.09.47:308][166]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019976s)
+[2016.11.01-15.09.47:309][166]LogAIModule: Creating AISystem for world Level_Test
+[2016.11.01-15.09.47:309][166]LogPlayLevel: PIE: World Init took: (0.000481s)
+[2016.11.01-15.09.47:309][166]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.020706s)
+[2016.11.01-15.09.47:309][166]LogWorld: Game class is 'MyGameMode_C'
+[2016.11.01-15.09.47:317][166]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.11.01-16.09.47
+[2016.11.01-15.09.47:318][166]LogWorld: Bringing up level for play took: 0.007941
+[2016.11.01-15.09.47:358][166]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2016.11.01-15.09.47:375][166]LogLoad: Took 0.143331 seconds to LoadMap(/Game/Maps/UEDPIE_0_Level_Test)
+[2016.11.01-15.10.06:447][ 15]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.10.06:646][ 15]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.10.59:611][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWork/Blueprints/Shooter" FILE="../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/MyWork/Blueprints/Shooter.uasset" SILENT=true
+[2016.11.01-15.10.59:659][127]LogSavePackage: Save=37.74ms
+[2016.11.01-15.10.59:659][127]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Shooter6D191EEC4614D426B78AAB949757847E.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/MyWork/Blueprints/Shooter.uasset'
+[2016.11.01-15.10.59:663][127]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/MyWork/Blueprints/Shooter.uasset
+[2016.11.01-15.11.00:671][248]BlueprintLog: New page: Compile Shooter
+[2016.11.01-15.11.00:806][248]BlueprintEditorCompileResults: Info [2746.29] Compile of Shooter successful! [in 134 ms] (/Game/MyWork/Blueprints/Shooter.Shooter)
+[2016.11.01-15.11.09:308][198]LogSavePackage: Save=464.05ms
+[2016.11.01-15.11.09:308][198]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_TestC620969B4F1E033BC48BC69744D289EA.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.11.09:312][198]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.11.09:345][198]LogFileHelpers: Saving map 'Level_Test' took 0.580
+[2016.11.01-15.13.18:884][613]LogSavePackage: Save=464.53ms
+[2016.11.01-15.13.18:884][613]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test5FD137E8441609A2988D98A8A2362FC5.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.13.18:889][613]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.13.18:922][613]LogFileHelpers: Saving map 'Level_Test' took 0.586
+[2016.11.01-15.14.16:588][468]LogBlueprint:Error: Compiler Error Pin  Bullets Per Wave  named BulletsPerWave doesn't match any parameters of function Start Wave
+[2016.11.01-15.14.16:772][468]LogBlueprint:Warning: Compiler Warning [2942.25] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 0 Warning(s) [in 220 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.14.16:773][468]LogBlueprint:Warning: Compiler Warning [2942.25] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.14.16:773][468]LogBlueprint:Warning: Compiler Warning [2942.25] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.14.16:773][468]LogBlueprint:Warning: Compiler Warning [2942.25] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.14.16:775][468]LogBlueprint:Warning: Compiler Warning [2942.26] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 4 Warning(s) [in 2 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.14.16:776][468]LogBlueprint:Warning: Compiler Warning [2942.26] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.14.17:113][468]LogSavePackage: Save=596.12ms
+[2016.11.01-15.14.17:113][468]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test5B4DD3A140BEF9036DBB3083BDD08686.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.14.17:118][468]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.14.17:152][468]LogFileHelpers: Saving map 'Level_Test' took 0.713
+[2016.11.01-15.14.17:168][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWork/Blueprints/Shooter" FILE="../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/MyWork/Blueprints/Shooter.uasset" SILENT=true
+[2016.11.01-15.14.17:222][468]LogSavePackage: Save=42.73ms
+[2016.11.01-15.14.17:222][468]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Shooter0C4485884951D1DEEBB7209D1196E406.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/MyWork/Blueprints/Shooter.uasset'
+[2016.11.01-15.14.17:226][468]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/MyWork/Blueprints/Shooter.uasset
+[2016.11.01-15.15.40:984][460]BlueprintLog: New page: Compile Level_Test
+[2016.11.01-15.15.41:050][460]LogBlueprint:Error: Compiler Error Pin  Bullets Per Wave  named BulletsPerWave doesn't match any parameters of function Start Wave
+[2016.11.01-15.15.41:320][460]LogBlueprint:Warning: Compiler Warning [3026.80] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 0 Warning(s) [in 335 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.15.41:320][460]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2016.11.01-15.15.41:320][460]BlueprintEditorCompileResults:Error: Error Pin  Bullets Per Wave  named BulletsPerWave doesn't match any parameters of function Start Wave
+[2016.11.01-15.15.41:320][460]BlueprintEditorCompileResults:Warning: Warning [3026.80] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 0 Warning(s) [in 335 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.15.52:346][761]LogBlueprint:Error: Compiler Error Pin  Bullets Per Wave  named BulletsPerWave doesn't match any parameters of function Start Wave
+[2016.11.01-15.15.52:568][761]LogBlueprint:Warning: Compiler Warning [3038.05] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 0 Warning(s) [in 259 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.15.52:568][761]LogBlueprint:Warning: Compiler Warning [3038.05] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.15.52:568][761]LogBlueprint:Warning: Compiler Warning [3038.05] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.15.52:569][761]LogBlueprint:Warning: Compiler Warning [3038.05] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.15.52:571][761]LogBlueprint:Warning: Compiler Warning [3038.05] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 4 Warning(s) [in 2 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.15.52:571][761]LogBlueprint:Warning: Compiler Warning [3038.05] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.15.52:905][761]LogSavePackage: Save=626.77ms
+[2016.11.01-15.15.52:905][761]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test8DA5A91242F9E2EF1EAEEB8B4C277E68.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.15.52:910][761]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.15.52:943][761]LogFileHelpers: Saving map 'Level_Test' took 0.743
+[2016.11.01-15.16.12:267][ 54]LogBlueprint:Error: Compiler Error Pin  Bullets  named Bullets doesn't match any parameters of function Start Wave
+[2016.11.01-15.16.12:487][ 54]LogBlueprint:Warning: Compiler Warning [3057.97] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 0 Warning(s) [in 253 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.16.12:487][ 54]LogBlueprint:Warning: Compiler Warning [3057.97] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.16.12:487][ 54]LogBlueprint:Warning: Compiler Warning [3057.97] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.16.12:487][ 54]LogBlueprint:Warning: Compiler Warning [3057.97] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.16.12:490][ 54]LogBlueprint:Warning: Compiler Warning [3057.97] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 4 Warning(s) [in 2 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.16.12:490][ 54]LogBlueprint:Warning: Compiler Warning [3057.97] Compile of PersistentLevel.Level_Test failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.16.12:824][ 54]LogSavePackage: Save=619.94ms
+[2016.11.01-15.16.12:824][ 54]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test9C0B467D4C3C365CF6B446A30E855B9E.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.16.12:828][ 54]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.16.12:863][ 54]LogFileHelpers: Saving map 'Level_Test' took 0.732
+[2016.11.01-15.16.12:865][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWork/Blueprints/Shooter" FILE="../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/MyWork/Blueprints/Shooter.uasset" SILENT=true
+[2016.11.01-15.16.12:902][ 54]LogSavePackage: Save=27.94ms
+[2016.11.01-15.16.12:902][ 54]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Shooter373FAD0E4C6A7ED44088CC9CDDA78672.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/MyWork/Blueprints/Shooter.uasset'
+[2016.11.01-15.16.12:907][ 54]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/MyWork/Blueprints/Shooter.uasset
+[2016.11.01-15.16.13:943][178]BlueprintLog: New page: Compile Shooter
+[2016.11.01-15.16.14:244][178]BlueprintEditorCompileResults: Info [3059.73] Compile of Shooter successful! [in 300 ms] (/Game/MyWork/Blueprints/Shooter.Shooter)
+[2016.11.01-15.18.59:566][715]Cmd: TRANSACTION UNDO
+[2016.11.01-15.18.59:566][715]LogEditorTransaction: Undo Delete current selection
+[2016.11.01-15.19.10:974][995]LogSavePackage: Save=474.64ms
+[2016.11.01-15.19.10:974][995]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test3CDAEF6D4110CDFA4AFB5B8CBEFB7210.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.19.10:979][995]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.19.11:011][995]LogFileHelpers: Saving map 'Level_Test' took 0.595
+[2016.11.01-15.19.11:026][995]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWork/Blueprints/Shooter" FILE="../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/MyWork/Blueprints/Shooter.uasset" SILENT=true
+[2016.11.01-15.19.11:071][995]LogSavePackage: Save=36.59ms
+[2016.11.01-15.19.11:071][995]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Shooter39E6BA9642AA0A0D69433A91FB19877A.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/MyWork/Blueprints/Shooter.uasset'
+[2016.11.01-15.19.11:076][995]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/MyWork/Blueprints/Shooter.uasset
+[2016.11.01-15.20.29:610][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWork/Blueprints/Shooter" FILE="../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/MyWork/Blueprints/Shooter.uasset" SILENT=true
+[2016.11.01-15.20.29:656][320]LogSavePackage: Save=36.55ms
+[2016.11.01-15.20.29:656][320]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/ShooterBE7FA1E24245F461FB82D38563A7F6E4.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/MyWork/Blueprints/Shooter.uasset'
+[2016.11.01-15.20.29:661][320]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/MyWork/Blueprints/Shooter.uasset
+[2016.11.01-15.20.32:047][606]BlueprintLog: New page: Compile Shooter
+[2016.11.01-15.20.32:180][606]BlueprintEditorCompileResults: Info [3317.66] Compile of Shooter successful! [in 132 ms] (/Game/MyWork/Blueprints/Shooter.Shooter)
+[2016.11.01-15.20.36:468][ 38]LogSavePackage: Save=471.07ms
+[2016.11.01-15.20.36:468][ 38]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test931C037E49EC486EA8EAF7BCB4E76C1B.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.20.36:473][ 38]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.20.36:505][ 38]LogFileHelpers: Saving map 'Level_Test' took 0.581
+[2016.11.01-15.22.26:494][148]BlueprintLog: New page: Compile Shooter
+[2016.11.01-15.22.26:624][148]BlueprintEditorCompileResults: Info [3432.11] Compile of Shooter successful! [in 130 ms] (/Game/MyWork/Blueprints/Shooter.Shooter)
+[2016.11.01-15.22.30:708][566]LogSavePackage: Save=473.59ms
+[2016.11.01-15.22.30:708][566]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test9BC9B25F439A3D2452064DB6E82950DE.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.22.30:713][566]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.22.30:750][566]LogFileHelpers: Saving map 'Level_Test' took 0.594
+[2016.11.01-15.22.30:765][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyWork/Blueprints/Shooter" FILE="../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/MyWork/Blueprints/Shooter.uasset" SILENT=true
+[2016.11.01-15.22.30:806][566]LogSavePackage: Save=32.46ms
+[2016.11.01-15.22.30:807][566]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/ShooterE2D11F0F46DDE4CD1EE771A78DA778A3.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/MyWork/Blueprints/Shooter.uasset'
+[2016.11.01-15.22.30:810][566]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/MyWork/Blueprints/Shooter.uasset
+[2016.11.01-15.23.08:194][867]BlueprintLog: New page: Compile Level_Test
+[2016.11.01-15.23.08:349][867]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2016.11.01-15.23.08:349][867]BlueprintEditorCompileResults: Info [3473.83] Compile of PersistentLevel.Level_Test successful! [in 155 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.23.19:778][168]LogSavePackage: Save=467.93ms
+[2016.11.01-15.23.19:778][168]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_TestA28D722D49F1A2F759C4CD94371E4204.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.23.19:784][168]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.23.19:815][168]LogFileHelpers: Saving map 'Level_Test' took 0.581
+[2016.11.01-15.24.19:529][675]LogSavePackage: Save=458.45ms
+[2016.11.01-15.24.19:529][675]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test2F616D2A4B89FF60E9812D9E9B5FE6E8.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.24.19:533][675]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.24.19:564][675]LogFileHelpers: Saving map 'Level_Test' took 0.573
+[2016.11.01-15.25.46:644][805]LogSavePackage: Save=468.74ms
+[2016.11.01-15.25.46:644][805]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_TestA9151BCC4107C0E83A20978171497FC8.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.25.46:648][805]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.25.46:679][805]LogFileHelpers: Saving map 'Level_Test' took 0.581
+[2016.11.01-15.26.07:719][324]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.26.07:719][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.01-15.26.07:719][324]PIE: New page: PIE session: Level_Test (Nov 1, 2016, 5:26:07 PM)
+[2016.11.01-15.26.07:719][324]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.11.01-15.26.07:742][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022773s)
+[2016.11.01-15.26.07:743][324]LogAIModule: Creating AISystem for world Level_Test
+[2016.11.01-15.26.07:743][324]LogPlayLevel: PIE: World Init took: (0.000632s)
+[2016.11.01-15.26.07:743][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.023789s)
+[2016.11.01-15.26.07:794][324]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.01-15.26.07:805][324]LogInit: FAudioDevice initialized.
+[2016.11.01-15.26.07:936][324]LogWorld: Game class is 'MyGameMode_C'
+[2016.11.01-15.26.07:945][324]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.11.01-16.26.07
+[2016.11.01-15.26.07:945][324]LogWorld: Bringing up level for play took: 0.008250
+[2016.11.01-15.26.07:988][324]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2016.11.01-15.26.08:068][324]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 0.533
+[2016.11.01-15.26.08:068][324]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.26.43:460][909]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.26.43:665][909]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.26.49:366][503]LogSavePackage: Save=464.51ms
+[2016.11.01-15.26.49:366][503]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_TestC0055A7346127E13192725B7555AE42C.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.26.49:371][503]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.26.49:404][503]LogFileHelpers: Saving map 'Level_Test' took 0.575
+[2016.11.01-15.26.50:513][632]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.26.50:513][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.01-15.26.50:513][632]PIE: New page: PIE session: Level_Test (Nov 1, 2016, 5:26:50 PM)
+[2016.11.01-15.26.50:513][632]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.11.01-15.26.50:535][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021753s)
+[2016.11.01-15.26.50:536][632]LogAIModule: Creating AISystem for world Level_Test
+[2016.11.01-15.26.50:536][632]LogPlayLevel: PIE: World Init took: (0.000705s)
+[2016.11.01-15.26.50:536][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.022776s)
+[2016.11.01-15.26.50:586][632]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.01-15.26.50:597][632]LogInit: FAudioDevice initialized.
+[2016.11.01-15.26.50:734][632]LogWorld: Game class is 'MyGameMode_C'
+[2016.11.01-15.26.50:744][632]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.11.01-16.26.50
+[2016.11.01-15.26.50:744][632]LogWorld: Bringing up level for play took: 0.009691
+[2016.11.01-15.26.50:786][632]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2016.11.01-15.26.50:869][632]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 1.335
+[2016.11.01-15.26.50:870][632]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.27.19:808][928]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.27.20:008][928]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.28.07:957][458]LogSavePackage: Save=466.07ms
+[2016.11.01-15.28.07:957][458]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test72833CC24EDE88C653DFAC907BB0A612.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.28.07:962][458]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.28.07:992][458]LogFileHelpers: Saving map 'Level_Test' took 0.579
+[2016.11.01-15.28.29:687][956]LogSavePackage: Save=479.14ms
+[2016.11.01-15.28.29:687][956]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_TestBD88FAB14D515E3132C7C58E40E3368F.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.28.29:691][956]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.28.29:727][956]LogFileHelpers: Saving map 'Level_Test' took 0.595
+[2016.11.01-15.28.39:628][134]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.28.39:628][134]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.01-15.28.39:628][134]PIE: New page: PIE session: Level_Test (Nov 1, 2016, 5:28:39 PM)
+[2016.11.01-15.28.39:628][134]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.11.01-15.28.39:650][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022036s)
+[2016.11.01-15.28.39:651][134]LogAIModule: Creating AISystem for world Level_Test
+[2016.11.01-15.28.39:651][134]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2016.11.01-15.28.39:651][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.022842s)
+[2016.11.01-15.28.39:696][134]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.01-15.28.39:709][134]LogInit: FAudioDevice initialized.
+[2016.11.01-15.28.39:859][134]LogWorld: Game class is 'MyGameMode_C'
+[2016.11.01-15.28.39:868][134]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.11.01-16.28.39
+[2016.11.01-15.28.39:870][134]LogWorld: Bringing up level for play took: 0.009560
+[2016.11.01-15.28.39:910][134]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2016.11.01-15.28.39:989][134]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 0.454
+[2016.11.01-15.28.39:989][134]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.29.09:080][436]LogGameMode: ProcessServerTravel: ?Restart
+[2016.11.01-15.29.09:082][437]LogEngine: Server switch level: ?Restart
+[2016.11.01-15.29.09:082][437]LogNet: Browse: /Game/Maps/Level_Test?Restart
+[2016.11.01-15.29.09:098][437]LogLoad: LoadMap: /Game/Maps/Level_Test
+[2016.11.01-15.29.09:140][437]Cmd: MEM
+[2016.11.01-15.29.09:157][437]LogMemory: Platform Memory Stats for Windows
+[2016.11.01-15.29.09:157][437]LogMemory: Process Physical Memory: 2233.03 MB used, 2549.46 MB peak
+[2016.11.01-15.29.09:157][437]LogMemory: Process Virtual Memory: 5397.52 MB used, 5425.79 MB peak
+[2016.11.01-15.29.09:157][437]LogMemory: Physical Memory: 7705.38 MB used, 16245.22 MB total
+[2016.11.01-15.29.09:157][437]LogMemory: Virtual Memory: 7021.91 MB used, 134217728.00 MB total
+[2016.11.01-15.29.09:157][437]LogMemory: 
+[2016.11.01-15.29.09:157][437]Allocator Stats for TBB: (not implemented)
+[2016.11.01-15.29.09:158][437]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.11.01-15.29.09:177][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019620s)
+[2016.11.01-15.29.09:178][437]LogAIModule: Creating AISystem for world Level_Test
+[2016.11.01-15.29.09:178][437]LogPlayLevel: PIE: World Init took: (0.000525s)
+[2016.11.01-15.29.09:178][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.020430s)
+[2016.11.01-15.29.09:178][437]LogWorld: Game class is 'MyGameMode_C'
+[2016.11.01-15.29.09:186][437]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.11.01-16.29.09
+[2016.11.01-15.29.09:186][437]LogWorld: Bringing up level for play took: 0.007468
+[2016.11.01-15.29.09:226][437]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2016.11.01-15.29.09:244][437]LogLoad: Took 0.146231 seconds to LoadMap(/Game/Maps/UEDPIE_0_Level_Test)
+[2016.11.01-15.30.15:787][417]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.30.15:990][417]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.30.19:054][696]LogSavePackage: Save=473.39ms
+[2016.11.01-15.30.19:054][696]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_TestE40B1A7C404B8DAA81BBEDB417AB58A3.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.30.19:058][696]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.30.19:091][696]LogFileHelpers: Saving map 'Level_Test' took 0.592
+[2016.11.01-15.31.41:557][470]LogBlueprint:Error: Compiler Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2016.11.01-15.31.41:558][470]LogBlueprint:Error: Compiler Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2016.11.01-15.31.41:750][470]LogBlueprint:Warning: Compiler Warning [3987.23] Compile of PersistentLevel.Level_Test failed. 2 Fatal Issue(s) 0 Warning(s) [in 232 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.31.41:750][470]LogBlueprint:Warning: Compiler Warning [3987.23] Compile of PersistentLevel.Level_Test failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.31.41:750][470]LogBlueprint:Warning: Compiler Warning [3987.23] Compile of PersistentLevel.Level_Test failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.31.41:750][470]LogBlueprint:Warning: Compiler Warning [3987.23] Compile of PersistentLevel.Level_Test failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.31.41:753][470]LogBlueprint:Warning: Compiler Warning [3987.23] Compile of PersistentLevel.Level_Test failed. 2 Fatal Issue(s) 4 Warning(s) [in 2 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.31.41:753][470]LogBlueprint:Warning: Compiler Warning [3987.23] Compile of PersistentLevel.Level_Test failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.31.42:097][470]LogSavePackage: Save=611.57ms
+[2016.11.01-15.31.42:097][470]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test5AF62EEA4CD03D96A271E7BFE89A4278.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.31.42:101][470]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.31.42:131][470]LogFileHelpers: Saving map 'Level_Test' took 0.729
+[2016.11.01-15.31.56:823][219]LogEditorViewport: Clicking on Actor (LMB): Shooter_C (smith_gun_hand)
+[2016.11.01-15.33.54:655][153]LogSavePackage: Save=477.09ms
+[2016.11.01-15.33.54:655][153]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test109F79B74C3B93E88450738335F94306.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.33.54:660][153]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.33.54:691][153]LogFileHelpers: Saving map 'Level_Test' took 0.590
+[2016.11.01-15.34.00:708][785]LogSavePackage: Save=469.00ms
+[2016.11.01-15.34.00:708][785]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_TestB2220743454CB487C27F73AB75C60FA2.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.34.00:712][785]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.34.00:743][785]LogFileHelpers: Saving map 'Level_Test' took 0.579
+[2016.11.01-15.38.05:881][861]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.11.01-15.39.23:283][853]LogEditorViewport: Clicking on Actor (LMB): Shooter_C (smith_gun_hand)
+[2016.11.01-15.39.26:043][174]LogEditorViewport: Clicking on Actor (LMB): Actor (RightShooterReference)
+[2016.11.01-15.39.34:830][206]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.11.01-15.39.35:809][316]LogEditorViewport: Clicking on Actor (LMB): Actor (RightShooterReference)
+[2016.11.01-15.39.39:565][751]LogEditorViewport: Clicking on Actor (LMB): Shooter_C (smith_gun_hand)
+[2016.11.01-15.39.41:258][943]LogEditorViewport: Clicking on Actor (LMB): Actor (RightShooterReference)
+[2016.11.01-15.39.43:946][238]LogEditorViewport: Clicking on Actor (LMB): Actor (LeftShooterReference)
+[2016.11.01-15.39.53:029][230]LogSavePackage: Save=468.16ms
+[2016.11.01-15.39.53:029][230]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_TestBA7FA8974020F86DAC051CB66CFD8336.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.39.53:034][230]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.39.53:067][230]LogFileHelpers: Saving map 'Level_Test' took 0.597
+[2016.11.01-15.42.04:637][959]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.11.01-15.42.06:749][195]LogEditorViewport: Clicking on Actor (LMB): Shooter_C (Shooter)
+[2016.11.01-15.42.07:107][233]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.11.01-15.42.07:688][297]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.11.01-15.42.13:474][927]LogEditorViewport: Clicking on Actor (LMB): Shooter_C (Shooter)
+[2016.11.01-15.42.49:158][153]Cmd: TRANSACTION UNDO
+[2016.11.01-15.42.49:158][153]LogEditorTransaction: Undo Reset Location
+[2016.11.01-15.43.29:384][838]LogEditorViewport: Clicking on Actor (LMB): Shooter_C (smith_gun_hand)
+[2016.11.01-15.43.30:332][947]Cmd: DELETE
+[2016.11.01-15.43.30:332][947]Cmd: ACTOR DELETE
+[2016.11.01-15.43.35:307][947]LogEditorActor: Deleted Actor: Shooter_C
+[2016.11.01-15.43.35:329][947]LogEditorActor: Deleted 1 Actors (4.997 secs)
+[2016.11.01-15.43.36:207][ 52]LogEditorViewport: Clicking on Actor (LMB): Shooter_C (Shooter)
+[2016.11.01-15.43.36:540][ 88]Cmd: DELETE
+[2016.11.01-15.43.36:540][ 88]Cmd: ACTOR DELETE
+[2016.11.01-15.43.36:541][ 88]LogEditorActor: Deleted Actor: Shooter_C
+[2016.11.01-15.43.36:559][ 88]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.11.01-15.43.38:718][277]LogSavePackage: Save=473.96ms
+[2016.11.01-15.43.38:718][277]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test5357BA4544F2BF8A629396B259B3EFAF.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.43.38:727][277]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.43.38:756][277]LogFileHelpers: Saving map 'Level_Test' took 0.592
+[2016.11.01-15.44.25:824][677]LogEditorViewport: Clicking on Actor (LMB): Actor (LeftShooterReference)
+[2016.11.01-15.44.30:300][208]LogEditorViewport: Clicking on Actor (LMB): Actor (RightShooterReference)
+[2016.11.01-15.44.37:891][113]LogEditorViewport: Clicking on Actor (LMB): Actor (LeftShooterReference)
+[2016.11.01-15.44.40:508][423]LogEditorViewport: Clicking on Actor (LMB): Actor (RightShooterReference)
+[2016.11.01-15.45.39:828][444]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.11.01-15.45.40:437][511]LogEditorViewport: Clicking on Actor (LMB): Actor (LeftShooterReference)
+[2016.11.01-15.45.47:978][371]LogEditorViewport: Clicking on Actor (LMB): Actor (RightShooterReference)
+[2016.11.01-15.46.26:474][830]LogSavePackage: Save=498.79ms
+[2016.11.01-15.46.26:474][830]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_TestF7A9F696499BD93084697D85664BE4F7.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.46.26:480][830]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.46.26:513][830]LogFileHelpers: Saving map 'Level_Test' took 0.626
+[2016.11.01-15.46.30:514][306]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.46.30:514][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.01-15.46.30:514][306]PIE: New page: PIE session: Level_Test (Nov 1, 2016, 5:46:30 PM)
+[2016.11.01-15.46.30:515][306]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.11.01-15.46.30:535][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019921s)
+[2016.11.01-15.46.30:535][306]LogAIModule: Creating AISystem for world Level_Test
+[2016.11.01-15.46.30:535][306]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2016.11.01-15.46.30:535][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.020838s)
+[2016.11.01-15.46.30:598][306]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.01-15.46.30:610][306]LogInit: FAudioDevice initialized.
+[2016.11.01-15.46.30:758][306]LogWorld: Game class is 'MyGameMode_C'
+[2016.11.01-15.46.30:768][306]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.11.01-16.46.30
+[2016.11.01-15.46.30:769][306]LogWorld: Bringing up level for play took: 0.009812
+[2016.11.01-15.46.30:829][306]LogBlueprintUserMessages: [Level_Test_C_0] 850.0
+[2016.11.01-15.46.30:829][306]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2016.11.01-15.46.30:883][306]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 1.348
+[2016.11.01-15.46.30:883][306]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.46.32:959][400]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.46.33:153][400]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-15.47.04:269][961]LogSavePackage: Save=477.71ms
+[2016.11.01-15.47.04:269][961]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_TestE93943264A40A3AB391D9FBE5DA4B6D3.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.47.04:274][961]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.47.04:302][961]LogFileHelpers: Saving map 'Level_Test' took 0.586
+[2016.11.01-15.47.24:061][186]LogSavePackage: Save=481.13ms
+[2016.11.01-15.47.24:061][186]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_TestE422F6714859DC00723FD9AC8BDFDE89.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.47.24:065][186]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.47.24:094][186]LogFileHelpers: Saving map 'Level_Test' took 0.591
+[2016.11.01-15.47.29:647][849]BlueprintLog: New page: Compile Level_Test
+[2016.11.01-15.47.29:812][849]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2016.11.01-15.47.29:813][849]BlueprintEditorCompileResults: Info [4935.29] Compile of PersistentLevel.Level_Test successful! [in 165 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.47.40:743][ 88]LogSavePackage: Save=474.85ms
+[2016.11.01-15.47.40:743][ 88]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test889AA00B44924401B3E181A8A0461621.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.47.40:748][ 88]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.47.40:779][ 88]LogFileHelpers: Saving map 'Level_Test' took 0.585
+[2016.11.01-15.52.42:358][919]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.11.01-15.54.30:553][764]LogEditorViewport: Clicking on Actor (LMB): Actor (LeftShooterReference)
+[2016.11.01-15.54.54:116][558]BlueprintLog: New page: Compile Level_Test
+[2016.11.01-15.54.54:308][558]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2016.11.01-15.54.54:308][558]BlueprintEditorCompileResults: Info [5379.79] Compile of PersistentLevel.Level_Test successful! [in 191 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-15.55.03:080][509]LogSavePackage: Save=508.51ms
+[2016.11.01-15.55.03:080][509]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_TestD05D5C624BD20AFC322A1CB5E59B39AE.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.55.03:085][509]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.55.03:120][509]LogFileHelpers: Saving map 'Level_Test' took 0.642
+[2016.11.01-15.55.21:475][655]LogEditorViewport: Clicking on Actor (LMB): Actor (LeftShooterReference)
+[2016.11.01-15.57.17:899][481]LogEditorViewport: Clicking on Actor (LMB): Actor (RightShooterReference)
+[2016.11.01-15.57.19:441][663]LogEditorViewport: Clicking on Actor (LMB): Actor (LeftShooterReference)
+[2016.11.01-15.57.22:113][906]LogSavePackage: Save=493.06ms
+[2016.11.01-15.57.22:113][906]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test6FF682104693657F0DCAAD8C5B814D4E.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-15.57.22:121][906]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-15.57.22:152][906]LogFileHelpers: Saving map 'Level_Test' took 0.609
+[2016.11.01-15.58.13:022][975]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.11.01-16.00.27:256][833]LogSavePackage: Save=516.42ms
+[2016.11.01-16.00.27:256][833]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test772ADEB748A1D5460DCC6781B0DA72C4.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-16.00.27:262][833]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-16.00.27:295][833]LogFileHelpers: Saving map 'Level_Test' took 0.641
+[2016.11.01-16.00.36:275][835]LogSavePackage: Save=507.33ms
+[2016.11.01-16.00.36:276][835]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test4E3DCF1F4D72A0E752369B8C5EC191C1.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-16.00.36:280][835]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-16.00.36:309][835]LogFileHelpers: Saving map 'Level_Test' took 0.612
+[2016.11.01-16.01.53:884][ 15]LogSavePackage: Save=499.80ms
+[2016.11.01-16.01.53:884][ 15]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test689BB07B4CF253DA43033DA35235C69A.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-16.01.53:890][ 15]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-16.01.53:920][ 15]LogFileHelpers: Saving map 'Level_Test' took 0.608
+[2016.11.01-16.02.37:112][189]BlueprintLog: New page: Compile Level_Test
+[2016.11.01-16.02.37:279][189]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  False 
+[2016.11.01-16.02.37:280][189]BlueprintEditorCompileResults: Info [5842.76] Compile of PersistentLevel.Level_Test successful! [in 167 ms] (/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test)
+[2016.11.01-16.04.48:898][771]LogSavePackage: Save=514.17ms
+[2016.11.01-16.04.48:898][771]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_TestAB747A2945730308C7E28FA2A2003738.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-16.04.48:907][771]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-16.04.48:940][771]LogFileHelpers: Saving map 'Level_Test' took 0.636
+[2016.11.01-16.06.09:327][180]LogSavePackage: Save=507.31ms
+[2016.11.01-16.06.09:328][180]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_TestDB25ED574EED5E0DC581E791AAA9243B.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-16.06.09:333][180]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-16.06.09:360][180]LogFileHelpers: Saving map 'Level_Test' took 0.616
+[2016.11.01-16.06.12:591][490]LogSavePackage: Save=506.08ms
+[2016.11.01-16.06.12:591][490]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test4084E94A400CEA9A4A9CB18065779631.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-16.06.12:596][490]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-16.06.12:629][490]LogFileHelpers: Saving map 'Level_Test' took 0.623
+[2016.11.01-16.06.33:649][817]LogSavePackage: Save=514.32ms
+[2016.11.01-16.06.33:649][817]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test84A274944BDD40BBE90204B64CADD6F3.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-16.06.33:653][817]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-16.06.33:683][817]LogFileHelpers: Saving map 'Level_Test' took 0.625
+[2016.11.01-16.06.39:281][477]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-16.06.39:281][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.01-16.06.39:282][477]PIE: New page: PIE session: Level_Test (Nov 1, 2016, 6:06:39 PM)
+[2016.11.01-16.06.39:282][477]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.11.01-16.06.39:304][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021603s)
+[2016.11.01-16.06.39:304][477]LogAIModule: Creating AISystem for world Level_Test
+[2016.11.01-16.06.39:304][477]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2016.11.01-16.06.39:305][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.022645s)
+[2016.11.01-16.06.39:361][477]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.01-16.06.39:374][477]LogInit: FAudioDevice initialized.
+[2016.11.01-16.06.39:488][477]LogWorld: Game class is 'MyGameMode_C'
+[2016.11.01-16.06.39:497][477]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.11.01-17.06.39
+[2016.11.01-16.06.39:498][477]LogWorld: Bringing up level for play took: 0.009102
+[2016.11.01-16.06.39:542][477]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2016.11.01-16.06.39:596][477]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 0.062
+[2016.11.01-16.06.39:597][477]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-16.07.46:021][450]LogGameMode: ProcessServerTravel: ?Restart
+[2016.11.01-16.07.46:024][451]LogEngine: Server switch level: ?Restart
+[2016.11.01-16.07.46:024][451]LogNet: Browse: /Game/Maps/Level_Test?Restart
+[2016.11.01-16.07.46:039][451]LogLoad: LoadMap: /Game/Maps/Level_Test
+[2016.11.01-16.07.46:088][451]Cmd: MEM
+[2016.11.01-16.07.46:107][451]LogMemory: Platform Memory Stats for Windows
+[2016.11.01-16.07.46:107][451]LogMemory: Process Physical Memory: 1617.95 MB used, 2786.93 MB peak
+[2016.11.01-16.07.46:107][451]LogMemory: Process Virtual Memory: 6437.59 MB used, 6484.64 MB peak
+[2016.11.01-16.07.46:107][451]LogMemory: Physical Memory: 6841.07 MB used, 16245.22 MB total
+[2016.11.01-16.07.46:107][451]LogMemory: Virtual Memory: 8089.78 MB used, 134217728.00 MB total
+[2016.11.01-16.07.46:107][451]LogMemory: 
+[2016.11.01-16.07.46:107][451]Allocator Stats for TBB: (not implemented)
+[2016.11.01-16.07.46:107][451]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.11.01-16.07.46:129][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021420s)
+[2016.11.01-16.07.46:129][451]LogAIModule: Creating AISystem for world Level_Test
+[2016.11.01-16.07.46:130][451]LogPlayLevel: PIE: World Init took: (0.000602s)
+[2016.11.01-16.07.46:130][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.022393s)
+[2016.11.01-16.07.46:130][451]LogWorld: Game class is 'MyGameMode_C'
+[2016.11.01-16.07.46:138][451]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.11.01-17.07.46
+[2016.11.01-16.07.46:139][451]LogWorld: Bringing up level for play took: 0.008005
+[2016.11.01-16.07.46:179][451]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2016.11.01-16.07.46:196][451]LogLoad: Took 0.156811 seconds to LoadMap(/Game/Maps/UEDPIE_0_Level_Test)
+[2016.11.01-16.08.35:323][644]LogGameMode: ProcessServerTravel: ?Restart
+[2016.11.01-16.08.35:344][645]LogEngine: Server switch level: ?Restart
+[2016.11.01-16.08.35:344][645]LogNet: Browse: /Game/Maps/Level_Test?Restart
+[2016.11.01-16.08.35:367][645]LogLoad: LoadMap: /Game/Maps/Level_Test
+[2016.11.01-16.08.35:407][645]Cmd: MEM
+[2016.11.01-16.08.35:424][645]LogMemory: Platform Memory Stats for Windows
+[2016.11.01-16.08.35:424][645]LogMemory: Process Physical Memory: 1768.09 MB used, 2786.93 MB peak
+[2016.11.01-16.08.35:424][645]LogMemory: Process Virtual Memory: 6272.98 MB used, 6673.95 MB peak
+[2016.11.01-16.08.35:424][645]LogMemory: Physical Memory: 6938.26 MB used, 16245.22 MB total
+[2016.11.01-16.08.35:424][645]LogMemory: Virtual Memory: 7985.66 MB used, 134217728.00 MB total
+[2016.11.01-16.08.35:424][645]LogMemory: 
+[2016.11.01-16.08.35:424][645]Allocator Stats for TBB: (not implemented)
+[2016.11.01-16.08.35:424][645]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.11.01-16.08.35:447][645]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022595s)
+[2016.11.01-16.08.35:448][645]LogAIModule: Creating AISystem for world Level_Test
+[2016.11.01-16.08.35:448][645]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2016.11.01-16.08.35:448][645]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.024056s)
+[2016.11.01-16.08.35:448][645]LogWorld: Game class is 'MyGameMode_C'
+[2016.11.01-16.08.35:457][645]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.11.01-17.08.35
+[2016.11.01-16.08.35:458][645]LogWorld: Bringing up level for play took: 0.008598
+[2016.11.01-16.08.35:496][645]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2016.11.01-16.08.35:515][645]LogLoad: Took 0.148332 seconds to LoadMap(/Game/Maps/UEDPIE_0_Level_Test)
+[2016.11.01-16.08.36:060][671]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-16.08.36:256][671]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-16.10.41:253][450]LogSavePackage: Save=517.08ms
+[2016.11.01-16.10.41:253][450]LogSavePackage: Moving '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Saved/Level_Test8452D9A64728D7D36AE0CAADDD8E8295.tmp' to '../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap'
+[2016.11.01-16.10.41:258][450]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Bjorn Englesson/Documents/Unreal Projects/K4UIntroduction/Content/Maps/Level_Test.umap
+[2016.11.01-16.10.41:287][450]LogFileHelpers: Saving map 'Level_Test' took 0.630
+[2016.11.01-16.10.42:473][587]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-16.10.42:473][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.01-16.10.42:473][587]PIE: New page: PIE session: Level_Test (Nov 1, 2016, 6:10:42 PM)
+[2016.11.01-16.10.42:473][587]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.11.01-16.10.42:495][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021535s)
+[2016.11.01-16.10.42:496][587]LogAIModule: Creating AISystem for world Level_Test
+[2016.11.01-16.10.42:496][587]LogPlayLevel: PIE: World Init took: (0.000623s)
+[2016.11.01-16.10.42:496][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.022608s)
+[2016.11.01-16.10.42:545][587]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.01-16.10.42:555][587]LogInit: FAudioDevice initialized.
+[2016.11.01-16.10.42:699][587]LogWorld: Game class is 'MyGameMode_C'
+[2016.11.01-16.10.42:708][587]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.11.01-17.10.42
+[2016.11.01-16.10.42:709][587]LogWorld: Bringing up level for play took: 0.009174
+[2016.11.01-16.10.42:751][587]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2016.11.01-16.10.42:810][587]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_Test 1.275
+[2016.11.01-16.10.42:810][587]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-16.11.53:781][763]LogGameMode: ProcessServerTravel: ?Restart
+[2016.11.01-16.11.53:785][764]LogEngine: Server switch level: ?Restart
+[2016.11.01-16.11.53:785][764]LogNet: Browse: /Game/Maps/Level_Test?Restart
+[2016.11.01-16.11.53:798][764]LogLoad: LoadMap: /Game/Maps/Level_Test
+[2016.11.01-16.11.53:843][764]Cmd: MEM
+[2016.11.01-16.11.53:859][764]LogMemory: Platform Memory Stats for Windows
+[2016.11.01-16.11.53:859][764]LogMemory: Process Physical Memory: 1725.95 MB used, 2786.93 MB peak
+[2016.11.01-16.11.53:859][764]LogMemory: Process Virtual Memory: 6282.46 MB used, 6673.95 MB peak
+[2016.11.01-16.11.53:859][764]LogMemory: Physical Memory: 6978.62 MB used, 16245.22 MB total
+[2016.11.01-16.11.53:859][764]LogMemory: Virtual Memory: 8026.59 MB used, 134217728.00 MB total
+[2016.11.01-16.11.53:859][764]LogMemory: 
+[2016.11.01-16.11.53:859][764]Allocator Stats for TBB: (not implemented)
+[2016.11.01-16.11.53:859][764]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.11.01-16.11.53:882][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022787s)
+[2016.11.01-16.11.53:882][764]LogAIModule: Creating AISystem for world Level_Test
+[2016.11.01-16.11.53:882][764]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2016.11.01-16.11.53:883][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.023768s)
+[2016.11.01-16.11.53:883][764]LogWorld: Game class is 'MyGameMode_C'
+[2016.11.01-16.11.53:890][764]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.11.01-17.11.53
+[2016.11.01-16.11.53:891][764]LogWorld: Bringing up level for play took: 0.007035
+[2016.11.01-16.11.53:946][764]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2016.11.01-16.11.53:964][764]LogLoad: Took 0.166371 seconds to LoadMap(/Game/Maps/UEDPIE_0_Level_Test)
+[2016.11.01-16.12.53:024][407]LogGameMode: ProcessServerTravel: ?Restart
+[2016.11.01-16.12.53:045][408]LogEngine: Server switch level: ?Restart
+[2016.11.01-16.12.53:046][408]LogNet: Browse: /Game/Maps/Level_Test?Restart
+[2016.11.01-16.12.53:068][408]LogLoad: LoadMap: /Game/Maps/Level_Test
+[2016.11.01-16.12.53:110][408]Cmd: MEM
+[2016.11.01-16.12.53:127][408]LogMemory: Platform Memory Stats for Windows
+[2016.11.01-16.12.53:127][408]LogMemory: Process Physical Memory: 1860.29 MB used, 2786.93 MB peak
+[2016.11.01-16.12.53:128][408]LogMemory: Process Virtual Memory: 6378.51 MB used, 6673.95 MB peak
+[2016.11.01-16.12.53:128][408]LogMemory: Physical Memory: 7152.81 MB used, 16245.22 MB total
+[2016.11.01-16.12.53:128][408]LogMemory: Virtual Memory: 8077.09 MB used, 134217728.00 MB total
+[2016.11.01-16.12.53:128][408]LogMemory: 
+[2016.11.01-16.12.53:128][408]Allocator Stats for TBB: (not implemented)
+[2016.11.01-16.12.53:128][408]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.11.01-16.12.53:150][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021943s)
+[2016.11.01-16.12.53:151][408]LogAIModule: Creating AISystem for world Level_Test
+[2016.11.01-16.12.53:151][408]LogPlayLevel: PIE: World Init took: (0.000497s)
+[2016.11.01-16.12.53:151][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.022810s)
+[2016.11.01-16.12.53:151][408]LogWorld: Game class is 'MyGameMode_C'
+[2016.11.01-16.12.53:159][408]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.11.01-17.12.53
+[2016.11.01-16.12.53:160][408]LogWorld: Bringing up level for play took: 0.008067
+[2016.11.01-16.12.53:197][408]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2016.11.01-16.12.53:215][408]LogLoad: Took 0.147104 seconds to LoadMap(/Game/Maps/UEDPIE_0_Level_Test)
+[2016.11.01-16.15.09:257][498]LogGameMode: ProcessServerTravel: ?Restart
+[2016.11.01-16.15.09:280][499]LogEngine: Server switch level: ?Restart
+[2016.11.01-16.15.09:280][499]LogNet: Browse: /Game/Maps/Level_Test?Restart
+[2016.11.01-16.15.09:302][499]LogLoad: LoadMap: /Game/Maps/Level_Test
+[2016.11.01-16.15.09:347][499]Cmd: MEM
+[2016.11.01-16.15.09:365][499]LogMemory: Platform Memory Stats for Windows
+[2016.11.01-16.15.09:365][499]LogMemory: Process Physical Memory: 1884.67 MB used, 2786.93 MB peak
+[2016.11.01-16.15.09:365][499]LogMemory: Process Virtual Memory: 6516.83 MB used, 6673.95 MB peak
+[2016.11.01-16.15.09:365][499]LogMemory: Physical Memory: 7193.83 MB used, 16245.22 MB total
+[2016.11.01-16.15.09:365][499]LogMemory: Virtual Memory: 8139.03 MB used, 134217728.00 MB total
+[2016.11.01-16.15.09:365][499]LogMemory: 
+[2016.11.01-16.15.09:365][499]Allocator Stats for TBB: (not implemented)
+[2016.11.01-16.15.09:365][499]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.11.01-16.15.09:388][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022188s)
+[2016.11.01-16.15.09:388][499]LogAIModule: Creating AISystem for world Level_Test
+[2016.11.01-16.15.09:388][499]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2016.11.01-16.15.09:389][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.023196s)
+[2016.11.01-16.15.09:389][499]LogWorld: Game class is 'MyGameMode_C'
+[2016.11.01-16.15.09:396][499]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.11.01-17.15.09
+[2016.11.01-16.15.09:397][499]LogWorld: Bringing up level for play took: 0.007797
+[2016.11.01-16.15.09:436][499]LogLevel:Warning: EnableInput on a LevelScript actor can not be specified for only one PlayerController.  Enabling for all PlayerControllers.
+[2016.11.01-16.15.09:454][499]LogLoad: Took 0.152386 seconds to LoadMap(/Game/Maps/UEDPIE_0_Level_Test)
+[2016.11.01-16.15.11:613][597]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-16.15.11:834][597]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-16.15.48:384][439]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_Test.Level_Test:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test' with GeneratedClass '/Game/Maps/Level_Test.Level_Test_C' with ClassGeneratedBy '/Game/Maps/Level_Test.Level_Test:PersistentLevel.Level_Test'
+[2016.11.01-16.15.48:385][439]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.01-16.15.48:385][439]PIE: New page: PIE session: Level_Test (Nov 1, 2016, 6:15:48 PM)
+[2016.11.01-16.15.48:385][439]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_Test
+[2016.11.01-16.15.48:414][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029326s)
+[2016.11.01-16.15.48:415][439]LogAIModule: Creating AISystem for world Level_Test
+[2016.11.01-16.15.48:415][439]LogPlayLevel: PIE: World Init took: (0.000673s)
+[2016.11.01-16.15.48:415][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_Test.Level_Test to /Game/Maps/UEDPIE_0_Level_Test.Level_Test (0.030448s)
+[2016.11.01-16.15.48:463][439]LogInit: XAudio2 using 'Högtalare (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.01-16.15.48:474][439]LogInit: FAudioDevice initialized.
+[2016.11.01-16.15.48:618][439]LogWorld: Game class is 'MyGameMode_C'
+[2016.11.01-16.15.48:628][439]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_Test.Level_Test up for play (max tick rate 0) at 2016.11.01-17.15.48
+[2016.11.01-16.15.48:629][439]LogWorld: Bringing up level for play took: 0.010023
+[2016.11.01-16.15.48:674][439]LogLevel
