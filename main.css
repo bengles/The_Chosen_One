@@ -21,7 +21,6 @@ h1 {
 
 h2 {
   font-size: 28px;
-  font-family: 'Nixie One';
   font-weight:bold;
 }
 
@@ -34,8 +33,6 @@ hr {
   border-top: 1px solid rgba(0, 255, 0, 0.1);
   width: 80%;
 }
-
-
 
 section {
   padding: 5%;
@@ -68,7 +65,7 @@ section {
 }
 
 .contributions ul {
-  list-style-type: none;
+  text-align: left;
   padding: 0;
   margin: 0;
 }
