@@ -56,6 +56,11 @@ section {
   background:radial-gradient(ellipse farthest-side at center center, rgba(0, 255, 0, 0.1) .1%, rgb(0, 7, 0) 60%);
 }
 
+.padding-left-right {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .col-md-4 {
   padding: 20px;
 }
